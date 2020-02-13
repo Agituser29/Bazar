@@ -1,0 +1,121 @@
+.header_top { 
+    background: $black;    
+    height:45px; 
+    color: $white;  
+    padding-left:56px;  
+   }   
+    .header_top__container { 
+      display:flex;
+    }
+   .header_top__nav {    
+     margin-left:185px;
+     display:flex;    
+    
+    .item { 
+      border-right:1px solid #fff;   
+      width:68px; 
+      height:18px;   
+      margin-top:3px;
+      padding-top:5px;  
+      padding-left:5px;    
+      font-size:5px;
+
+      .item_ic {   
+        width: 9px;
+	      height: 6px;
+        background:url(../img/sprites.png) no-repeat;  
+        background-position: -10px -10px;  
+        margin-left:44px;  
+        margin-top:-9px;
+      }  
+       
+    } 
+    .item2 {    
+      border-right:1px solid #fff;
+      width:68px; 
+      height:18px;   
+      margin-top:3px;
+      padding-top:5px;     
+      font-size:5px;
+
+      .item_ic2 {   
+        width: 9px;
+	      height: 6px;
+        background:url(../img/sprites.png) no-repeat;  
+        background-position: -10px -10px;  
+        margin-left:56px;  
+        margin-top:-9px; 
+      }   
+  
+      }
+  
+    .item3 {    
+      margin-top:3px; 
+      padding-top:5px;   
+      font-size:5px; 
+      width:70px; 
+      height:19px;    
+
+      .item3_ic {  
+        width: 9px;
+	      height: 6px;
+        background:url(../img/sprites.png) no-repeat;  
+        background-position: -10px -10px;  
+        margin-left:41px; 
+        margin-top:-8px;
+
+      } 
+
+     }
+    a {      
+     text-decoration:none; 
+     font-size:12px;   
+     margin-left:15px;  
+     color: $white;
+    }
+   } 
+    
+   .header_top__log {  
+     display:flex;
+     margin-left:415px; 
+      
+     .item4_ic {   
+      width: 13px;
+      height: 15px; 
+      margin-top:7px;
+      background:url(../img/sprites.png) no-repeat;  
+      background-position:-281px -303px; 
+    }  
+     
+    .item5_ic {   
+      width: 13px;
+      height: 15px; 
+      margin-top:7px;
+      background:url(../img/sprites.png) no-repeat;  
+      background-position:-153px -163px; 
+    } 
+
+
+     a { 
+      color: white;  
+      text-decoration:none;  
+      font-size:12px;
+     }   
+    
+
+     .item4 {   
+       display:flex;
+       margin:9px;  
+    
+     }  
+     .itemf {  
+      width: 17px;
+      height: 17px; 
+      background:url(../img/sprites.png) no-repeat;  
+      background-position: -699px -710px;
+      margin-left:25px;  
+      margin-top:9px;
+     }
+   
+    } 
+  
