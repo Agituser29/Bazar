@@ -2,17 +2,13 @@
     background: $black;    
     height:45px; 
     color: $white;  
-    padding-left:56px;  
+
    }   
-    .header_top__container { 
-      display:flex;
-    }
+    
    .header_top__nav {    
-     margin-left:185px;
      display:flex;    
     
-    .item { 
-      border-right:1px solid #fff;   
+    .item {  
       width:68px; 
       height:18px;   
       margin-top:3px;
@@ -25,14 +21,15 @@
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
         background-position: -10px -10px;  
-        margin-left:44px;  
+        margin-left:45px;  
         margin-top:-9px;
       }  
        
     } 
     .item2 {    
-      border-right:1px solid #fff;
-      width:68px; 
+      border-right:1px solid #fff; 
+      border-left:1px solid #fff; 
+      width:78px; 
       height:18px;   
       margin-top:3px;
       padding-top:5px;     
@@ -43,7 +40,7 @@
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
         background-position: -10px -10px;  
-        margin-left:58px;  
+        margin-left:61px;  
         margin-top:-9px; 
       }   
   
@@ -61,8 +58,8 @@
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
         background-position: -10px -10px;  
-        margin-left:45px; 
-        margin-top:-8px;
+        margin-left:46px; 
+        margin-top:-9px;
 
       } 
 
@@ -128,11 +125,13 @@
     height:145px;
   .phone {  
     display:flex; 
-    margin-left:50px; 
+    margin-left:50px;   
+    margin-top:20px; 
+    height:50px;
   }
    .phone_number {  
-    padding-top:5px;
-    font-size:17px; 
+    padding-top:9px;
+    font-size:15px; 
     font-weight:500px; 
     margin-left:5px; 
     color:#fff;
@@ -150,7 +149,8 @@
     margin-left:193px; 
   }
    .wrapper_basket {     
-     margin-left:210px;
+     margin-left:210px; 
+     margin-top:12px;
      display:flex; 
      justify-content:center; 
      align-items:center;
@@ -175,8 +175,8 @@
     text-align:center;
     padding-top:10px; 
     position:absolute; 
-    left:1051px; 
-    top:54px;
+    right:14px; 
+    top:20px;
   }
 
   } 
@@ -186,26 +186,27 @@
    color:#fff;    
   
 
-    .header_bottom__left_field { 
-     margin-top:18px;  
-     margin-left:258px;   
+    .header_bottom__left_field {  
+     margin-top:18px;   
+     margin-left:40px;
      position:relative;
      .left_field2 {  
       width:107px; 
       height:43px;  
-      padding-left:31px;  
+      padding-left:31px;   
+      margin-left:10px;
       letter-spacing:-1px; 
       word-spacing:0px;
       font-weight:500;
-      border:1px solid #2a2a2a;
+      border:1px solid #2a2a2a; 
      }
      .left_field_ic1 {   
       background: url("../img/sprites.png") no-repeat -1109px -1102px;   
       width: 31px;
       height: 19px; 
       position:absolute; 
-      left:5px; 
-      bottom:13px;
+      left:15px; 
+      bottom:31px;
      }  
 
      .left_field_ic2 {  
@@ -213,8 +214,8 @@
       width: 10px;
       height: 7px;  
       position:absolute; 
-      left:123px;
-      bottom:19px;
+      left:135px;
+      bottom:39px;
      } 
      .left_field3 { 
        width:178px; 
@@ -230,34 +231,40 @@
      width: 15px;
      height: 16px;  
      position:absolute; 
-     left:298px;
-     bottom:19px;
+     left:315px;
+     bottom:34px;
      }
     } 
     .header_bottom__nav {  
       display:flex;  
-      margin-left:643px; 
-      margin-top:-67px; 
       height:50px; 
-      padding-top:37px;
+      padding-top:33px;  
+      margin-left:58px;
   
         a { 
           text-decoration:none; 
           font-size:12px;  
           font-weight:600;
-          margin-left:10px; 
-          color:#2a2a2a;
+          margin-left:12px; 
+          color:#2a2a2a; 
         } 
       .wrapp_a {  
-       display:inline-block;  
+       display:inline-block;   
        background:#d58e32;   
        border-top:3px solid #2a2a2a;
        color:#fff;
-       width:50px; 
+       width:40px; 
        height:54px;  
-       margin-top:-35px; 
-       padding-top:28px;
+       margin-top:-35px;  
+       padding-top:29px; 
+       padding-right:15px;
        a {color:#fff;}
       }
     }
+  } 
+  .general_container {  
+    margin: 0 auto;
+    width: 855px; 
+    display:flex; 
+    position:relative;
   }
