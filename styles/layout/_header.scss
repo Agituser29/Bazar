@@ -1,4 +1,4 @@
-.header_top { 
+git.header_top { 
     background: $black;    
     height:45px; 
     color: $white;  
@@ -7,7 +7,7 @@
     
    .header_top__nav {    
      display:flex;    
-    
+     margin-top:10px;
     .item {  
       width:68px; 
       height:18px;   
@@ -73,28 +73,32 @@
    } 
     
    .header_top__log {  
-     display:flex;
+     display:flex; 
+     margin-top:10px;
      margin-left:415px; 
       
      .item4_ic {   
-      width: 13px;
-      height: 15px; 
-      margin-top:7px;
+      margin-top:7px;  
       background:url(../img/sprites.png) no-repeat;  
-      background-position:-281px -303px; 
-    }  
+      background-position: -415px -435px;
+      width: 13px;
+	    height: 15px;
+     }
+     
+  
+  
      
     .item5_ic {   
-      width: 13px;
-      height: 15px; 
+      width: 17px;
+	    height: 14px;
       margin-top:7px;
       background:url(../img/sprites.png) no-repeat;  
-      background-position:-153px -163px; 
+      background-position:-182px -196px;
     } 
 
 
      a { 
-      color: white;  
+      color:  $white;  
       text-decoration:none;  
       font-size:12px;
      }   
@@ -109,7 +113,7 @@
       width: 17px;
       height: 17px; 
       background:url(../img/sprites.png) no-repeat;  
-      background-position: -699px -710px;
+      background-position:-765px -776px;
       margin-left:25px;  
       margin-top:9px;
      }
@@ -121,7 +125,7 @@
     display:flex; 
     justify-content:center; 
     align-items:center;
-    background:#363636; 
+    background:$black2; 
     height:145px;
   .phone {  
     display:flex; 
@@ -134,7 +138,7 @@
     font-size:15px; 
     font-weight:500px; 
     margin-left:5px; 
-    color:#fff;
+    color:$white;
    } 
     
   .phone_ic {  
@@ -142,7 +146,7 @@
   height: 32px;   
   margin-right:5px;
   background:url(../img/sprites.png) no-repeat;  
-  background-position: -1470px -1426px;
+  background-position: -1499px -1459px;
   }   
 
   .logo { 
@@ -156,12 +160,12 @@
      align-items:center;
      width:50px; 
      height:50px; 
-     background:#d58e32; 
+     background:$yellow; 
    }
 
   .basket { 
     background:url(../img/sprites.png) no-repeat;  
-    background-position:  -1193px -1180px; 
+    background-position:  -1222px -1213px;
     width: 23px;
 	  height: 21px;
   
@@ -171,7 +175,7 @@
     height:24px; 
     border-radius:50%;  
     background:#363636;
-    color:#e0e3ed; 
+    color:$gray2 ;
     text-align:center;
     padding-top:10px; 
     position:absolute; 
@@ -183,7 +187,7 @@
    
   .header_bottom {  
    height:87px;  
-   color:#fff;    
+   color:$white;    
   
 
     .header_bottom__left_field {  
@@ -198,15 +202,15 @@
       letter-spacing:-1px; 
       word-spacing:0px;
       font-weight:500;
-      border:1px solid #2a2a2a; 
+      border:1px solid $black3; 
      }
      .left_field_ic1 {   
-      background: url("../img/sprites.png") no-repeat -1109px -1102px;   
+      background: url("../img/sprites.png") no-repeat -1137px -1133px; 
       width: 31px;
       height: 19px; 
       position:absolute; 
-      left:15px; 
-      bottom:31px;
+      left:14px; 
+      bottom:33px;
      }  
 
      .left_field_ic2 {  
@@ -222,16 +226,16 @@
        height:43px;  
        letter-spacing:-1px; 
        word-spacing:0px;
-       border:1px solid #2a2a2a;
+       border:1px solid $black3;
        padding-left:5px;
        margin-left:-5px;
      } 
      .left_field_ic3 {  
-     background: url("../img/sprites.png") no-repeat -773px -776px; 
+     background: url("../img/sprites.png") no-repeat -838px -844px;
      width: 15px;
      height: 16px;  
      position:absolute; 
-     left:315px;
+     left:309px;
      bottom:34px;
      }
     } 
@@ -246,19 +250,19 @@
           font-size:12px;  
           font-weight:600;
           margin-left:12px; 
-          color:#2a2a2a; 
+          color:$black3; 
         } 
       .wrapp_a {  
        display:inline-block;   
-       background:#d58e32;   
-       border-top:3px solid #2a2a2a;
-       color:#fff;
+       background:$yellow;   
+       border-top:3px solid $black3;
+       color:$white;
        width:40px; 
        height:54px;  
        margin-top:-35px;  
        padding-top:29px; 
        padding-right:15px;
-       a {color:#fff;}
+       a {color:$white;}
       }
     }
   } 
@@ -266,5 +270,376 @@
     margin: 0 auto;
     width: 855px; 
     display:flex; 
+    position:relative; 
+    /*border:2px solid fuchsia;*/
+  } 
+   
+  .options__bar {  
+   background:$white;
+   display:flex;
+
+  .hot_deals { 
+    margin-left:61px; 
+   
+  .hot_deals__header {  
+    background:$black3; 
+    width:225px; 
+    height:35px; 
+    padding-top:14px; 
+    padding-left:10px;
+    p {  
+      color:$white;   
+      font-size:15px; 
+      font-weight:"SemiBold"; 
+    } 
+    .header_items {  
+      display:flex;  
+      margin-left:164px; 
+      margin-top:-14px;
+      .item {  
+       width:13px;  
+       height:13px;  
+       border-radius:50%; 
+       background:$yellow;
+      } 
+      .item1 {  
+        width:13px;  
+        height:13px;  
+        border-radius:50%; 
+        background:$gray3;
+        margin-left:7px;
+       }
+    }
+  }  
+   .hot_deals__main {   
+     display:flex;
+     flex-direction:column; 
+     justify-content:center; 
+     background:$gray4; 
+     height:290px;
+    .hot_deals__button {   
+       position:relative;
+       width:105px;  
+       height:40px;    
+       padding-top:4px; 
+       padding-left:33px; 
+       margin-left:64px;
+       border:none; 
+       font-size:10px;  
+       word-spacing:-1px; 
+       color:$white;
+       font-family:"Poppins"; 
+       font-weight:"Semibold";
+       background:$black3;
+       margin-top:90px; 
+       .basket {  
+        background: url("../img/sprites.png") no-repeat -1222px -1213px;
+      	width: 24px;
+        height: 21px;  
+        position:absolute; 
+        bottom:11px; 
+        left:8px;
+       } 
+         } 
+         .hot_deals__time_bar {  
+          display:flex; 
+          margin-top:70px;
+          .item {  
+            background:$black4;
+            color:$white;
+            text-align:center;  
+            margin-left:5px;
+            padding-top:20px;
+            width:52px;    
+            height:49px; 
+            border-radius:50%; 
+            font-size:12px; 
+            font-weight:550; 
+            line-height:19px; 
+            span { 
+             font-size:18px; 
+             font-weight:700; 
+            }
+       }
+     }
+   }  
+   .f_wrapper { 
+     border:1px solid $gray3;
+     background:$white;  
+
+   .hot_deals__footer {    
+     padding-top:34px; 
+     height:60px;
+     text-align:center; 
+     p { color:$black3;  
+         font-size:13px; 
+         font-weight:600;
+       } 
+       .foot_sec {  
+        border-bottom:1px solid $black3;
+        height:44px; 
+        width:224px; 
+        margin-left:5px;
+        position:relative;
+        .item {    
+         height:16px;  
+         width:90px;   
+         margin-left:75px; 
+         margin-top:19px;
+         background: url("../img/sprites.png") no-repeat -1606px -1547px;
+        }  
+
+        .rectangle {   
+          width:25px; 
+          height:5px; 
+          background:$yellow;
+          position:absolute; 
+          top:42px; 
+          left:94px;
+        } 
+
+       }
+   } 
+   .final_footer { 
+     height:47px;
+     .f_f_i {   
+       display:flex;   
+       margin-top:30px;
+       .item1 {  
+        margin-left:3px;
+        border:1px solid $black3;
+        background: url("../img/sprites.png") no-repeat -617px -634px;
+        width:23px; 
+        height:33px;
+        } 
+        .item2 {  
+          width:23px; 
+          height:33px;  
+          margin-left:3px;
+          border:1px solid $black3; 
+          background: url("../img/sprites.png") no-repeat -799px -800px; 
+          } 
+          .item3 {  
+            width:23px; 
+            height:33px;  
+            margin-left:3px;
+            border:1px solid $black3; 
+            background: url("../img/sprites.png")no-repeat -724px -735px; 
+            } 
+       .prices {     
+        display:flex; 
+        .price1 {    
+         margin-right:2px;
+         font-size:12px;  
+         padding-top:11px; 
+         margin-left:28px;
+         color:$gray5;
+         position:relative;  
+         p:after {  
+          content:"";  
+          display:block; 
+          width:45px;
+          height:1px;
+          background:$black3;
+          position:absolute; 
+          top:16px; 
+          left:1px;
+          }
+         } 
+         .price2{  
+          color:$white;
+          background:$black3;
+          padding-top:9px; 
+          font-size:15px; 
+         }
+        } 
+     } 
+     
+   } 
+  } 
+ 
+ }  
+ .shop_now {  
+  background: $gray6;
+  margin-left:14px; 
+  height:511px;  
+  width:500px; 
+   
+  .shop_now__middle {    
+    border-top:1px solid $gray7;  
     position:relative;
+    background:$gray7;  
+    margin-top:143px; 
+    height:214px; 
+    .shop_now__content {  
+    margin-top:78px;   
+    text-align:center; 
+    font-size:45px;    
+    font-family:"Poppins";
+    font-weight:"Light"; 
+    word-spacing:-1px;
+    color:$white;
+    line-height:1.5; 
+    span { font-weight:900;}
+    p{  
+      font-size:19px;  
+      font-weight:"light"; 
+      word-spacing:-1px;
+     }
+    } 
+    .shop_now__B {  
+      width:89px; 
+      height:55px;    
+      border-radius:5%; 
+      background:$white;
+      font-size:12px;  
+      font-weight:700;
+      word-spacing:-1px;  
+      color:$black3;
+      border:none;
+      position:absolute; 
+      top:182px; 
+      left:201px;
+    }
+  } 
+  .shop_now__footer {    
+    height:45px;
+    margin-top:108px;  
+    display:flex;
+    .left_side {  
+      width:250px;
+      background:$black3;
+    .l_item {  
+      background: url("../img/sprites.png") no-repeat -95px -94px;
+      width: 9px;
+      height: 13px;  
+      margin-left:118px;  
+      margin-top:14px;  
+    }  
+    } 
+    .right_side { 
+      background:$yellow; 
+      width:250px;
+    .r_item {   
+      background: url("../img/sprites.png")  no-repeat -124px -127px;
+      width: 9px;
+      height: 13px;  
+      margin-left:114px;  
+      margin-top:14px;
+    } 
+    }
+   }
   }
+ } 
+ .offer_items { 
+  display:flex; 
+  margin-left:60px;
+  margin-top:67px;
+
+.item1 {
+   width:170px; 
+   height:70px;   
+   border:1px solid #b7b7b7;   
+   position:relative;
+   text-align:center; 
+   line-height:1.7; 
+   padding-top:50px;
+   color:#e0a38e; 
+   span {font-weight:900;}
+    
+   .wrap {  
+    width:65px; 
+    height:65px;   
+    border-radius:50%; 
+    border:1px solid #d99844;   
+    background:#fff;
+    position:absolute; 
+    bottom:94px; 
+    left:55px; 
+    .sprite {  
+      background: url("../img/sprites.png")  no-repeat -1309px -1296px; 
+      background:#d58e32;  
+      border:1px solid #d7943c;
+      width:55px; 
+      height:55px;   
+      margin-left:4px; 
+      margin-top:4px;
+      border-radius:50%;    
+      .sp_it {   
+        width: 32px;
+        height: 29px;   
+        border-radius:50%; 
+        margin-left:13px; 
+        margin-top:15px;
+        background: url("../img/sprites.png")  no-repeat -1309px -1296px;
+      }
+
+      
+    }
+   }  
+   } 
+   /*----------------item2start---------------- */ 
+   .item2 {
+    width:170px; 
+    height:70px;   
+    border:1px solid #b7b7b7;  
+    margin-left:19px;
+    position:relative;
+    text-align:center; 
+    line-height:1.7; 
+    padding-top:50px; 
+    color:#2a2a2a; 
+    span {font-weight:900;}
+     
+    .wrap {  
+     width:65px; 
+     height:65px;   
+     border-radius:50%; 
+     border:1px solid #b7b7b7;   
+     background:#fff;
+     position:absolute; 
+     bottom:94px; 
+     left:55px; 
+     .sprite {  
+       background: url("../img/sprites.png")  no-repeat -1309px -1296px; 
+       background:#fff;  
+       border:1px solid #b7b7b7;
+       width:55px; 
+       height:55px;   
+       margin-left:4px; 
+       margin-top:4px;
+       border-radius:50%;    
+       .sp_it {   
+         border-radius:50%; 
+         margin-left:13px; 
+         margin-top:15px;
+         background: url("../img/sprites.png")  no-repeat -1265px -1254px;
+         width: 24px;
+         height: 22px;
+       }  
+       .sp_it2 {   
+        border-radius:50%;
+        margin-left:13px; 
+        margin-top:15px;
+        background: url("../img/sprites.png")no-repeat -1406px -1372px;
+        width: 26px;
+        height: 24px;
+        
+      }  
+        
+      .sp_it3 {   
+        border-radius:50%;
+        margin-left:13px; 
+        margin-top:15px;
+        background: url("../img/sprites.png")no-repeat -1451px -1416px;
+        width: 35px;
+        height: 28px;
+        
+      } 
+     
+      }
+
+     }
+    }  
+    } 
+
