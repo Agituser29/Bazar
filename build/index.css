@@ -352,7 +352,7 @@ git.header_top {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  /*border:2px solid fuchsia;*/
+  /* border:2px solid fuchsia;*/
 }
 
 .options__bar {
@@ -783,6 +783,127 @@ git.header_top {
   background: url("../img/sprites.png") no-repeat -1451px -1416px;
   width: 35px;
   height: 28px;
+}
+
+.squares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.squares .square__item {
+  margin-top: 23px;
+  margin-left: 55px;
+  height: 417px;
+  width: 365px;
+  background: #6a6a6a;
+}
+
+.squares .square__item .guest_room {
+  height: 352px;
+  width: 317px;
+  border-top: 1px solid #505050;
+  background: #505050;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+
+.squares .square__item .guest_room .content {
+  height: 190px;
+  width: 217px;
+  margin-top: 143px;
+  padding-left: 7px;
+  color: #fff;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  font-size: 31px;
+  font-weight: 700;
+  border: 1px solid #505050;
+}
+
+.squares .square__item .guest_room .content span {
+  font-size: 49px;
+}
+
+.squares .square__item .guest_room .content .discount {
+  height: 62px;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 13px;
+  font-size: 38px;
+  border: 5px solid #fff;
+}
+
+.squares .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.squares .wrapper .chair {
+  border-top: 1px solid #e8edf7;
+  margin-top: 24px;
+  height: 200px;
+  width: 364px;
+  margin-left: 20px;
+  background: #e8edf7;
+}
+
+.squares .wrapper .chair .content {
+  height: 70px;
+  width: 200px;
+  margin-top: 48px;
+  margin-left: 110px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.squares .wrapper .chair .content span {
+  font-weight: 800;
+}
+
+.squares .wrapper .chair .content p {
+  font-size: 16px;
+}
+
+.squares .wrapper .chair .price {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 110px;
+  color: #d58e32;
+}
+
+.squares .wrapper .chair2 {
+  border-top: 1px solid #e8edf7;
+  margin-top: 14px;
+  height: 200px;
+  width: 364px;
+  margin-left: 20px;
+  background: #fbf3f7;
+}
+
+.squares .wrapper .chair2 .content {
+  height: 70px;
+  width: 200px;
+  color: #d58e32;
+  margin-top: 76px;
+  margin-left: 155px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.squares .wrapper .chair2 .content span {
+  font-weight: 900;
+}
+
+.squares .wrapper .chair2 .content p {
+  font-size: 14px;
+  letter-spacing: -1px;
+  color: #000000;
 }
 
 .a {

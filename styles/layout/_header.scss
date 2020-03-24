@@ -271,7 +271,7 @@ git.header_top {
     width: 855px; 
     display:flex; 
     position:relative; 
-    /*border:2px solid fuchsia;*/
+   /* border:2px solid fuchsia;*/
   } 
    
   .options__bar {  
@@ -539,27 +539,27 @@ git.header_top {
 .item1 {
    width:170px; 
    height:70px;   
-   border:1px solid #b7b7b7;   
+   border:1px solid $gray8;
    position:relative;
    text-align:center; 
    line-height:1.7; 
    padding-top:50px;
-   color:#e0a38e; 
+   color:$yellow1;
    span {font-weight:900;}
     
    .wrap {  
     width:65px; 
     height:65px;   
     border-radius:50%; 
-    border:1px solid #d99844;   
-    background:#fff;
+    border:1px solid $yellow2;   
+    background:$white;
     position:absolute; 
     bottom:94px; 
     left:55px; 
     .sprite {  
       background: url("../img/sprites.png")  no-repeat -1309px -1296px; 
-      background:#d58e32;  
-      border:1px solid #d7943c;
+      background:$yellow;  
+      border:1px solid $yellow3;
       width:55px; 
       height:55px;   
       margin-left:4px; 
@@ -582,28 +582,28 @@ git.header_top {
    .item2 {
     width:170px; 
     height:70px;   
-    border:1px solid #b7b7b7;  
+    border:1px solid $gray8;  
     margin-left:19px;
     position:relative;
     text-align:center; 
     line-height:1.7; 
     padding-top:50px; 
-    color:#2a2a2a; 
+    color:$black3; 
     span {font-weight:900;}
      
     .wrap {  
      width:65px; 
      height:65px;   
      border-radius:50%; 
-     border:1px solid #b7b7b7;   
-     background:#fff;
+     border:1px solid $gray8;   
+     background:$white;
      position:absolute; 
      bottom:94px; 
      left:55px; 
      .sprite {  
        background: url("../img/sprites.png")  no-repeat -1309px -1296px; 
-       background:#fff;  
-       border:1px solid #b7b7b7;
+       background:$white;  
+       border:1px solid $gray8;
        width:55px; 
        height:55px;   
        margin-left:4px; 
@@ -641,5 +641,103 @@ git.header_top {
 
      }
     }  
+    }  
+    .squares {  
+    display:flex;    
+    margin-top:10px; 
+    .square__item {  
+      margin-top:23px; 
+      margin-left:55px; 
+      height:417px; 
+      width: 365px;  
+      background:$black1; 
+      .guest_room {  
+        height:352px; 
+        width: 317px;     
+        border-top:1px solid $black5;
+        background:$black5;
+        margin:0 auto; 
+        margin-top:33px;  
+       .content { 
+        height:190px; 
+        width: 217px;   
+        margin-top: 143px; 
+        padding-left:7px; 
+        color:$white;
+        word-spacing: 0px; 
+        letter-spacing:0px; 
+        line-height:1.2;
+        font-size:31px; 
+        font-weight:700;
+        border:1px solid $black5; 
+        span {  
+         font-size:49px; 
+        } 
+        .discount { 
+          height:62px; 
+          width: 100px;     
+          text-align:center;   
+          margin-top:10px; 
+          padding-top:13px; 
+          font-size:38px;
+          border:5px solid $white;
+        }
+       }
+
+      }
     } 
+    .wrapper {  
+     flex-direction:column; 
+    
+    .chair {  
+      border-top:1px solid $gray; 
+      margin-top:24px;
+      height:200px; 
+      width: 364px;   
+      margin-left:20px;
+      background:$gray;
+      .content {  
+      height:70px; 
+      width: 200px;    
+      margin-top:48px;
+      margin-left:110px;   
+      font-size:24px; 
+      line-height:1.5; 
+      span { font-weight:800;}
+      p {font-size:16px;}
+      } 
+      .price {  
+      font-size:30px; 
+      font-weight:900; 
+      margin-left:110px; 
+      color:$yellow;
+      }
+    }   
+    .chair2 {  
+      border-top:1px solid $gray; 
+      margin-top:14px;
+      height:200px; 
+      width: 364px;  
+      margin-left:20px;
+      background:$pink;
+      .content {  
+      height:70px; 
+      width: 200px;        
+      color:$yellow;
+      margin-top:76px;
+      margin-left:155px;   
+      font-size:18px;  
+      line-height:1.8;  
+      span { font-weight:900;}
+      p { 
+        font-size:14px;  
+        letter-spacing:-1px; 
+        color:$black6;
+      }
+      } 
+     
+    }  
+  
+    }
+    }
 
