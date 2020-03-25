@@ -578,7 +578,7 @@ git.header_top {
     }
    }  
    } 
-   /*----------------item2start---------------- */ 
+
    .item2 {
     width:170px; 
     height:70px;   
@@ -739,5 +739,64 @@ git.header_top {
     }  
   
     }
+    }  
+  .new_furniture {  
+    .new_furniture__nav {   
+    margin-top:60px; 
+    margin-left:293px;  
+    font-size:14px;  
+    font-weight:700;
+    a {  
+    text-decoration:none; 
+    margin-left:5px; 
+    color:$black3;
     }
+    }  
+    .new_furniture__logo {  
+      color:$yellow;  
+      margin-left:52px; 
+      font-size:16px;
+      width:150px;
+      margin-top:-14px;
+    } 
+    .new_furniture__circles {   
+      display:flex;  
+      margin-left:762px;  
+      margin-top:8px;
+
+     .circle {  
+        width:10px; 
+        height:10px;  
+        border-radius:50%;
+       background:$yellow; 
+      } 
+      .circle2 {  
+        width:10px; 
+        height:10px;   
+        border-radius:50%;
+        background:$gray3; 
+        margin-left:7px;
+      }
+    }
+  .new_furniture__line {  
+    display:flex;
+    width:700px;
+    height:3px;    
+    margin-left:50px; 
+    margin-top:-6px;
+    background:$gray3; 
+    .item {  
+     width:30px;
+     height:3px;   
+     background:$yellow;   
+    } 
+    .item2 {  
+     width:23px;
+     height:3px;   
+     background:$yellow;     
+     margin-left:214px;
+    }
+  } 
+
+  }
 
