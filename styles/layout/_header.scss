@@ -1,4 +1,4 @@
-git.header_top { 
+ .header_top { 
     background: $black;    
     height:45px; 
     color: $white;  
@@ -8,7 +8,7 @@ git.header_top {
    .header_top__nav {    
      display:flex;    
      margin-top:10px;
-    .item {  
+    .USD {  
       width:68px; 
       height:18px;   
       margin-top:3px;
@@ -16,7 +16,7 @@ git.header_top {
       padding-left:5px;    
       font-size:5px;
 
-      .item_ic {   
+      .USD_ic {   
         width: 9px;
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
@@ -26,7 +26,7 @@ git.header_top {
       }  
        
     } 
-    .item2 {    
+    .English {    
       border-right:1px solid #fff; 
       border-left:1px solid #fff; 
       width:78px; 
@@ -35,7 +35,7 @@ git.header_top {
       padding-top:5px;     
       font-size:5px;
 
-      .item_ic2 {   
+      .English_ic {   
         width: 9px;
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
@@ -46,14 +46,14 @@ git.header_top {
   
       }
   
-    .item3 {    
+     .Help {    
       margin-top:3px; 
       padding-top:5px;   
       font-size:5px; 
       width:70px; 
       height:19px;    
 
-      .item3_ic {  
+      .Help_ic {  
         width: 9px;
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
@@ -77,7 +77,7 @@ git.header_top {
      margin-top:10px;
      margin-left:415px; 
       
-     .item4_ic {   
+     .Login_ic {   
       margin-top:7px;  
       background:url(../img/sprites.png) no-repeat;  
       background-position: -415px -435px;
@@ -88,7 +88,7 @@ git.header_top {
   
   
      
-    .item5_ic {   
+    .Register_ic {   
       width: 17px;
 	    height: 14px;
       margin-top:7px;
@@ -104,12 +104,16 @@ git.header_top {
      }   
     
 
-     .item4 {   
+     .Login{   
        display:flex;
        margin:9px;  
-    
-     }  
-     .itemf {  
+     }   
+     .Register {   
+      display:flex;
+      margin:9px;  
+    }   
+
+     .Hamburger {  
       width: 17px;
       height: 17px; 
       background:url(../img/sprites.png) no-repeat;  
@@ -179,7 +183,7 @@ git.header_top {
     text-align:center;
     padding-top:10px; 
     position:absolute; 
-    right:14px; 
+    right:17px; 
     top:20px;
   }
 
@@ -194,26 +198,36 @@ git.header_top {
      margin-top:18px;   
      margin-left:40px;
      position:relative;
-     .left_field2 {  
+     .field {  
       width:107px; 
       height:43px;  
       padding-left:31px;   
-      margin-left:10px;
+      margin-left:14px;
+      letter-spacing:-1px; 
+      word-spacing:0px;
+      font-weight:500;
+      border:1px solid $black3; 
+     } 
+     .field2 {  
+      width:145px; 
+      height:43px;  
+      padding-left:31px;   
+      margin-left:-5px;
       letter-spacing:-1px; 
       word-spacing:0px;
       font-weight:500;
       border:1px solid $black3; 
      }
-     .left_field_ic1 {   
+     .hamburger {   
       background: url("../img/sprites.png") no-repeat -1137px -1133px; 
       width: 31px;
       height: 19px; 
       position:absolute; 
-      left:14px; 
+      left:19px; 
       bottom:33px;
      }  
 
-     .left_field_ic2 {  
+     .arrow {  
       background: url("../img/sprites.png") no-repeat -39px -36px;
       width: 10px;
       height: 7px;  
@@ -221,7 +235,7 @@ git.header_top {
       left:135px;
       bottom:39px;
      } 
-     .left_field3 { 
+     .text { 
        width:178px; 
        height:43px;  
        letter-spacing:-1px; 
@@ -230,7 +244,7 @@ git.header_top {
        padding-left:5px;
        margin-left:-5px;
      } 
-     .left_field_ic3 {  
+     .search {  
      background: url("../img/sprites.png") no-repeat -838px -844px;
      width: 15px;
      height: 16px;  
@@ -296,13 +310,13 @@ git.header_top {
       display:flex;  
       margin-left:164px; 
       margin-top:-14px;
-      .item {  
+      .circle {  
        width:13px;  
        height:13px;  
        border-radius:50%; 
        background:$yellow;
       } 
-      .item1 {  
+      .circle_gray{  
         width:13px;  
         height:13px;  
         border-radius:50%; 
@@ -344,7 +358,7 @@ git.header_top {
          .hot_deals__time_bar {  
           display:flex; 
           margin-top:70px;
-          .item {  
+          .time {  
             background:$black4;
             color:$white;
             text-align:center;  
@@ -381,7 +395,7 @@ git.header_top {
         width:224px; 
         margin-left:5px;
         position:relative;
-        .item {    
+        .star {    
          height:16px;  
          width:90px;   
          margin-left:75px; 
@@ -405,21 +419,21 @@ git.header_top {
      .f_f_i {   
        display:flex;   
        margin-top:30px;
-       .item1 {  
+       .eye {  
         margin-left:3px;
         border:1px solid $black3;
         background: url("../img/sprites.png") no-repeat -617px -634px;
         width:23px; 
         height:33px;
         } 
-        .item2 {  
+        .heart {  
           width:23px; 
           height:33px;  
           margin-left:3px;
           border:1px solid $black3; 
           background: url("../img/sprites.png") no-repeat -799px -800px; 
           } 
-          .item3 {  
+          .arrows {  
             width:23px; 
             height:33px;  
             margin-left:3px;
@@ -428,7 +442,7 @@ git.header_top {
             } 
        .prices {     
         display:flex; 
-        .price1 {    
+        .was {    
          margin-right:2px;
          font-size:12px;  
          padding-top:11px; 
@@ -446,7 +460,7 @@ git.header_top {
           left:1px;
           }
          } 
-         .price2{  
+         .is_now {  
           color:$white;
           background:$black3;
           padding-top:9px; 
@@ -509,7 +523,7 @@ git.header_top {
     .left_side {  
       width:250px;
       background:$black3;
-    .l_item {  
+    .l_arrow {  
       background: url("../img/sprites.png") no-repeat -95px -94px;
       width: 9px;
       height: 13px;  
@@ -520,7 +534,7 @@ git.header_top {
     .right_side { 
       background:$yellow; 
       width:250px;
-    .r_item {   
+    .r_arrow {   
       background: url("../img/sprites.png")  no-repeat -124px -127px;
       width: 9px;
       height: 13px;  
@@ -531,12 +545,12 @@ git.header_top {
    }
   }
  } 
- .offer_items { 
+ .offer_options { 
   display:flex; 
   margin-left:60px;
   margin-top:67px;
 
-.item1 {
+.shipping {
    width:170px; 
    height:70px;   
    border:1px solid $gray8;
@@ -565,7 +579,7 @@ git.header_top {
       margin-left:4px; 
       margin-top:4px;
       border-radius:50%;    
-      .sp_it {   
+      .sp_ic {   
         width: 32px;
         height: 29px;   
         border-radius:50%; 
@@ -579,7 +593,7 @@ git.header_top {
    }  
    } 
 
-   .item2 {
+   .options {
     width:170px; 
     height:70px;   
     border:1px solid $gray8;  
@@ -609,7 +623,7 @@ git.header_top {
        margin-left:4px; 
        margin-top:4px;
        border-radius:50%;    
-       .sp_it {   
+       .support_ic{   
          border-radius:50%; 
          margin-left:13px; 
          margin-top:15px;
@@ -617,24 +631,22 @@ git.header_top {
          width: 24px;
          height: 22px;
        }  
-       .sp_it2 {   
+       .money_back_ic {   
         border-radius:50%;
         margin-left:13px; 
         margin-top:15px;
         background: url("../img/sprites.png")no-repeat -1406px -1372px;
         width: 26px;
         height: 24px;
-        
       }  
         
-      .sp_it3 {   
+      .discount_ic {   
         border-radius:50%;
         margin-left:13px; 
         margin-top:15px;
         background: url("../img/sprites.png")no-repeat -1451px -1416px;
         width: 35px;
         height: 28px;
-        
       } 
      
       }
@@ -713,7 +725,7 @@ git.header_top {
       color:$yellow;
       }
     }   
-    .chair2 {  
+    .second_chair {  
       border-top:1px solid $gray; 
       margin-top:14px;
       height:200px; 
@@ -770,7 +782,7 @@ git.header_top {
         border-radius:50%;
        background:$yellow; 
       } 
-      .circle2 {  
+      .gray_circle {  
         width:10px; 
         height:10px;   
         border-radius:50%;
@@ -785,12 +797,12 @@ git.header_top {
     margin-left:50px; 
     margin-top:-6px;
     background:$gray3; 
-    .item {  
+    .bigger_rectangle {  
      width:30px;
      height:3px;   
      background:$yellow;   
     } 
-    .item2 {  
+    .smaller_rectangle {  
      width:23px;
      height:3px;   
      background:$yellow;     

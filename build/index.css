@@ -52,7 +52,7 @@ body {
   font-family: "Poppins", "Regular";
 }
 
-git.header_top {
+.header_top {
   background: #434343;
   height: 45px;
   color: #fff;
@@ -65,7 +65,7 @@ git.header_top {
   margin-top: 10px;
 }
 
-.header_top__nav .item {
+.header_top__nav .USD {
   width: 68px;
   height: 18px;
   margin-top: 3px;
@@ -74,7 +74,7 @@ git.header_top {
   font-size: 5px;
 }
 
-.header_top__nav .item .item_ic {
+.header_top__nav .USD .USD_ic {
   width: 9px;
   height: 6px;
   background: url(../img/sprites.png) no-repeat;
@@ -83,7 +83,7 @@ git.header_top {
   margin-top: -9px;
 }
 
-.header_top__nav .item2 {
+.header_top__nav .English {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   width: 78px;
@@ -93,7 +93,7 @@ git.header_top {
   font-size: 5px;
 }
 
-.header_top__nav .item2 .item_ic2 {
+.header_top__nav .English .English_ic {
   width: 9px;
   height: 6px;
   background: url(../img/sprites.png) no-repeat;
@@ -102,7 +102,7 @@ git.header_top {
   margin-top: -9px;
 }
 
-.header_top__nav .item3 {
+.header_top__nav .Help {
   margin-top: 3px;
   padding-top: 5px;
   font-size: 5px;
@@ -110,7 +110,7 @@ git.header_top {
   height: 19px;
 }
 
-.header_top__nav .item3 .item3_ic {
+.header_top__nav .Help .Help_ic {
   width: 9px;
   height: 6px;
   background: url(../img/sprites.png) no-repeat;
@@ -134,7 +134,7 @@ git.header_top {
   margin-left: 415px;
 }
 
-.header_top__log .item4_ic {
+.header_top__log .Login_ic {
   margin-top: 7px;
   background: url(../img/sprites.png) no-repeat;
   background-position: -415px -435px;
@@ -142,7 +142,7 @@ git.header_top {
   height: 15px;
 }
 
-.header_top__log .item5_ic {
+.header_top__log .Register_ic {
   width: 17px;
   height: 14px;
   margin-top: 7px;
@@ -156,14 +156,21 @@ git.header_top {
   font-size: 12px;
 }
 
-.header_top__log .item4 {
+.header_top__log .Login {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 9px;
 }
 
-.header_top__log .itemf {
+.header_top__log .Register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 9px;
+}
+
+.header_top__log .Hamburger {
   width: 17px;
   height: 17px;
   background: url(../img/sprites.png) no-repeat;
@@ -249,7 +256,7 @@ git.header_top {
   text-align: center;
   padding-top: 10px;
   position: absolute;
-  right: 14px;
+  right: 17px;
   top: 20px;
 }
 
@@ -264,27 +271,38 @@ git.header_top {
   position: relative;
 }
 
-.header_bottom .header_bottom__left_field .left_field2 {
+.header_bottom .header_bottom__left_field .field {
   width: 107px;
   height: 43px;
   padding-left: 31px;
-  margin-left: 10px;
+  margin-left: 14px;
   letter-spacing: -1px;
   word-spacing: 0px;
   font-weight: 500;
   border: 1px solid #2a2a2a;
 }
 
-.header_bottom .header_bottom__left_field .left_field_ic1 {
+.header_bottom .header_bottom__left_field .field2 {
+  width: 145px;
+  height: 43px;
+  padding-left: 31px;
+  margin-left: -5px;
+  letter-spacing: -1px;
+  word-spacing: 0px;
+  font-weight: 500;
+  border: 1px solid #2a2a2a;
+}
+
+.header_bottom .header_bottom__left_field .hamburger {
   background: url("../img/sprites.png") no-repeat -1137px -1133px;
   width: 31px;
   height: 19px;
   position: absolute;
-  left: 14px;
+  left: 19px;
   bottom: 33px;
 }
 
-.header_bottom .header_bottom__left_field .left_field_ic2 {
+.header_bottom .header_bottom__left_field .arrow {
   background: url("../img/sprites.png") no-repeat -39px -36px;
   width: 10px;
   height: 7px;
@@ -293,7 +311,7 @@ git.header_top {
   bottom: 39px;
 }
 
-.header_bottom .header_bottom__left_field .left_field3 {
+.header_bottom .header_bottom__left_field .text {
   width: 178px;
   height: 43px;
   letter-spacing: -1px;
@@ -303,7 +321,7 @@ git.header_top {
   margin-left: -5px;
 }
 
-.header_bottom .header_bottom__left_field .left_field_ic3 {
+.header_bottom .header_bottom__left_field .search {
   background: url("../img/sprites.png") no-repeat -838px -844px;
   width: 15px;
   height: 16px;
@@ -388,14 +406,14 @@ git.header_top {
   margin-top: -14px;
 }
 
-.options__bar .hot_deals .hot_deals__header .header_items .item {
+.options__bar .hot_deals .hot_deals__header .header_items .circle {
   width: 13px;
   height: 13px;
   border-radius: 50%;
   background: #d58e32;
 }
 
-.options__bar .hot_deals .hot_deals__header .header_items .item1 {
+.options__bar .hot_deals .hot_deals__header .header_items .circle_gray {
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -451,7 +469,7 @@ git.header_top {
   margin-top: 70px;
 }
 
-.options__bar .hot_deals .hot_deals__main .hot_deals__time_bar .item {
+.options__bar .hot_deals .hot_deals__main .hot_deals__time_bar .time {
   background: #3e3e3e;
   color: #fff;
   text-align: center;
@@ -465,7 +483,7 @@ git.header_top {
   line-height: 19px;
 }
 
-.options__bar .hot_deals .hot_deals__main .hot_deals__time_bar .item span {
+.options__bar .hot_deals .hot_deals__main .hot_deals__time_bar .time span {
   font-size: 18px;
   font-weight: 700;
 }
@@ -495,7 +513,7 @@ git.header_top {
   position: relative;
 }
 
-.options__bar .hot_deals .f_wrapper .hot_deals__footer .foot_sec .item {
+.options__bar .hot_deals .f_wrapper .hot_deals__footer .foot_sec .star {
   height: 16px;
   width: 90px;
   margin-left: 75px;
@@ -523,7 +541,7 @@ git.header_top {
   margin-top: 30px;
 }
 
-.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .item1 {
+.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .eye {
   margin-left: 3px;
   border: 1px solid #2a2a2a;
   background: url("../img/sprites.png") no-repeat -617px -634px;
@@ -531,7 +549,7 @@ git.header_top {
   height: 33px;
 }
 
-.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .item2 {
+.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .heart {
   width: 23px;
   height: 33px;
   margin-left: 3px;
@@ -539,7 +557,7 @@ git.header_top {
   background: url("../img/sprites.png") no-repeat -799px -800px;
 }
 
-.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .item3 {
+.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .arrows {
   width: 23px;
   height: 33px;
   margin-left: 3px;
@@ -553,7 +571,7 @@ git.header_top {
   display: flex;
 }
 
-.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .prices .price1 {
+.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .prices .was {
   margin-right: 2px;
   font-size: 12px;
   padding-top: 11px;
@@ -562,7 +580,7 @@ git.header_top {
   position: relative;
 }
 
-.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .prices .price1 p:after {
+.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .prices .was p:after {
   content: "";
   display: block;
   width: 45px;
@@ -573,7 +591,7 @@ git.header_top {
   left: 1px;
 }
 
-.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .prices .price2 {
+.options__bar .hot_deals .f_wrapper .final_footer .f_f_i .prices .is_now {
   color: #fff;
   background: #2a2a2a;
   padding-top: 9px;
@@ -644,7 +662,7 @@ git.header_top {
   background: #2a2a2a;
 }
 
-.options__bar .shop_now .shop_now__footer .left_side .l_item {
+.options__bar .shop_now .shop_now__footer .left_side .l_arrow {
   background: url("../img/sprites.png") no-repeat -95px -94px;
   width: 9px;
   height: 13px;
@@ -657,7 +675,7 @@ git.header_top {
   width: 250px;
 }
 
-.options__bar .shop_now .shop_now__footer .right_side .r_item {
+.options__bar .shop_now .shop_now__footer .right_side .r_arrow {
   background: url("../img/sprites.png") no-repeat -124px -127px;
   width: 9px;
   height: 13px;
@@ -665,7 +683,7 @@ git.header_top {
   margin-top: 14px;
 }
 
-.offer_items {
+.offer_options {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -673,7 +691,7 @@ git.header_top {
   margin-top: 67px;
 }
 
-.offer_items .item1 {
+.offer_options .shipping {
   width: 170px;
   height: 70px;
   border: 1px solid #b7b7b7;
@@ -684,11 +702,11 @@ git.header_top {
   color: #e0a38e;
 }
 
-.offer_items .item1 span {
+.offer_options .shipping span {
   font-weight: 900;
 }
 
-.offer_items .item1 .wrap {
+.offer_options .shipping .wrap {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -699,7 +717,7 @@ git.header_top {
   left: 55px;
 }
 
-.offer_items .item1 .wrap .sprite {
+.offer_options .shipping .wrap .sprite {
   background: url("../img/sprites.png") no-repeat -1309px -1296px;
   background: #d58e32;
   border: 1px solid #d7943c;
@@ -710,7 +728,7 @@ git.header_top {
   border-radius: 50%;
 }
 
-.offer_items .item1 .wrap .sprite .sp_it {
+.offer_options .shipping .wrap .sprite .sp_ic {
   width: 32px;
   height: 29px;
   border-radius: 50%;
@@ -719,7 +737,7 @@ git.header_top {
   background: url("../img/sprites.png") no-repeat -1309px -1296px;
 }
 
-.offer_items .item2 {
+.offer_options .options {
   width: 170px;
   height: 70px;
   border: 1px solid #b7b7b7;
@@ -731,11 +749,11 @@ git.header_top {
   color: #2a2a2a;
 }
 
-.offer_items .item2 span {
+.offer_options .options span {
   font-weight: 900;
 }
 
-.offer_items .item2 .wrap {
+.offer_options .options .wrap {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -746,7 +764,7 @@ git.header_top {
   left: 55px;
 }
 
-.offer_items .item2 .wrap .sprite {
+.offer_options .options .wrap .sprite {
   background: url("../img/sprites.png") no-repeat -1309px -1296px;
   background: #fff;
   border: 1px solid #b7b7b7;
@@ -757,7 +775,7 @@ git.header_top {
   border-radius: 50%;
 }
 
-.offer_items .item2 .wrap .sprite .sp_it {
+.offer_options .options .wrap .sprite .support_ic {
   border-radius: 50%;
   margin-left: 13px;
   margin-top: 15px;
@@ -766,7 +784,7 @@ git.header_top {
   height: 22px;
 }
 
-.offer_items .item2 .wrap .sprite .sp_it2 {
+.offer_options .options .wrap .sprite .money_back_ic {
   border-radius: 50%;
   margin-left: 13px;
   margin-top: 15px;
@@ -775,7 +793,7 @@ git.header_top {
   height: 24px;
 }
 
-.offer_items .item2 .wrap .sprite .sp_it3 {
+.offer_options .options .wrap .sprite .discount_ic {
   border-radius: 50%;
   margin-left: 13px;
   margin-top: 15px;
@@ -876,7 +894,7 @@ git.header_top {
   color: #d58e32;
 }
 
-.squares .wrapper .chair2 {
+.squares .wrapper .second_chair {
   border-top: 1px solid #e8edf7;
   margin-top: 14px;
   height: 200px;
@@ -885,7 +903,7 @@ git.header_top {
   background: #fbf3f7;
 }
 
-.squares .wrapper .chair2 .content {
+.squares .wrapper .second_chair .content {
   height: 70px;
   width: 200px;
   color: #d58e32;
@@ -895,11 +913,11 @@ git.header_top {
   line-height: 1.8;
 }
 
-.squares .wrapper .chair2 .content span {
+.squares .wrapper .second_chair .content span {
   font-weight: 900;
 }
 
-.squares .wrapper .chair2 .content p {
+.squares .wrapper .second_chair .content p {
   font-size: 14px;
   letter-spacing: -1px;
   color: #000000;
@@ -941,7 +959,7 @@ git.header_top {
   background: #d58e32;
 }
 
-.new_furniture .new_furniture__circles .circle2 {
+.new_furniture .new_furniture__circles .gray_circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -960,13 +978,13 @@ git.header_top {
   background: #e2e2e2;
 }
 
-.new_furniture .new_furniture__line .item {
+.new_furniture .new_furniture__line .bigger_rectangle {
   width: 30px;
   height: 3px;
   background: #d58e32;
 }
 
-.new_furniture .new_furniture__line .item2 {
+.new_furniture .new_furniture__line .smaller_rectangle {
   width: 23px;
   height: 3px;
   background: #d58e32;
