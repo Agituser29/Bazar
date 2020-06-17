@@ -285,7 +285,7 @@
     width: 855px; 
     display:flex; 
     position:relative; 
-   /* border:2px solid fuchsia;*/
+    /*border:2px solid greenyellow;*/
   } 
    
   .options__bar {  
@@ -469,7 +469,8 @@
         } 
      } 
      
-   } 
+   }  
+ 
   } 
  
  }  
@@ -810,5 +811,337 @@
     }
   } 
 
+  }  
+  .option_blocks {  
+  /*border:2px solid fuchsia;*/
+  margin-left:10px; 
+  padding-left:25px; 
+  padding-top:15px;
+   display:flex; 
+   flex-wrap:wrap;
+  .option_blocks__item_s {  
+   width:170px; 
+   height:410px;  
+   border: 1px solid transparent;  
+   background:$gray4; 
+   margin:12px;
+  
+  .sale { 
+     width:25px; 
+     height:15px;  
+     margin-left:67px;
+     border:2px solid $black3;  
+     background:$black3;
+     border-radius: 0 0 50% 50% / 0 0 100% 100%; 
+     font-size:10px; 
+     padding-left:3px; 
+     color:$white;
+   }      
+
+   .container_buttons {  
+    margin-top:208px;
+    display:flex;  
+    flex-direction:row-reverse; 
+    
+  .add_to_cart{     
+    position:relative;
+    border:none; 
+    border-radius:4%;
+    font-size:9px; 
+    font-weight:700; 
+    word-spacing:-1px; 
+    letter-spacing:0px; 
+    background:$black3; 
+    color:$white;
+    width:100px; 
+    height:34px;    
+    margin-left:3px;
+    padding-left:27px; 
+
+    .basket { 
+      background: url('../img/sprites.png') no-repeat -1223px -1214px;
+      width: 21px;
+      height: 19px; 
+      position:absolute; 
+      top:6px;
+      left:3px;
+    } 
+  } 
+  .quick_view {   
+    width:67px; 
+    height:34px;    
+    margin-right:3px;
+    border:none;   
+    border-radius:4%;
+    background:$black3;   
+    color:$white;
+    font-size:9px; 
+    font-weight:700;
+    word-spacing:-1px; 
+    letter-spacing:0px; 
+  } 
+  }   
+  .content{   
+   height:134px;
+   border:1px solid $gray3;
+   padding-top:15px; 
+   background:$white;
+   p { color:$yellow;  
+       font-size:13px; 
+       font-weight:600; 
+       margin-left:16px;
+   }  
+   .star {    
+    height:16px;  
+    width:90px;   
+    margin-left:40px; 
+    margin-top:17px;
+    background: url("../img/sprites.png") no-repeat -1606px -1547px;
+   }   
+   .foot_sec {    
+   width:154px;  
+   border-top:1px solid $black3;
+   position:relative;  
+   display:flex; 
+   margin-top:17px;   
+   margin-left:4px;
+   padding-top:17px; 
+
+   .like {  
+    background: url('../img/sprites.png') no-repeat -800px -798px;
+    width: 20px;
+    height: 35px; 
+    border:1px solid $black3; 
+    margin-right:2px; 
+   } 
+   .change {  
+    background: url('../img/sprites.png') no-repeat  -726px -733px;
+    width: 20px;
+    height: 35px; 
+    border:1px solid $black3; 
+    margin-left:2px;
+   } 
+   .price {    
+    background:$yellow; 
+    margin-left:48px; 
+    width:60px;
+  }
+     p{
+     color:$white; 
+     font-size:15px;   
+     font-weight:500; 
+     margin-top:10px; 
+     margin-left:5px;
+    }
+    .rectangle {   
+      width:20px; 
+      height:4px; 
+      background:$yellow;
+      position:absolute; 
+      bottom:53px;
+      left:65px;
+    }  
+
+   }
+  }
+
+   } 
+   /************** new block************************/ 
+   .option_blocks__item_empty {  
+    width:170px; 
+    height:410px;  
+    border: 1px solid transparent;  
+    background:$gray4; 
+    margin:12px;   
+    position:relative;
+    .sale { 
+      width:25px; 
+      height:15px;  
+      border:2px solid $black3;  
+      background:$black3;
+      border-radius: 0 0 50% 50% / 0 0 100% 100%; 
+      font-size:10px; 
+      padding-left:3px; 
+      color:$white; 
+      position:absolute; 
+      top:0px; 
+      left:67px;
+    }      
+
+   .content{   
+    height:134px;
+    border:1px solid $gray3; 
+    margin-top:260px;
+    padding-top:15px; 
+    background:$white;
+    p { color:$black3;  
+        font-size:13px; 
+        font-weight:600; 
+        margin-left:16px;
+    }  
+    .star {    
+     height:16px;  
+     width:90px;   
+     margin-left:40px; 
+     margin-top:17px;
+     background: url("../img/sprites.png") no-repeat -1606px -1547px;
+    }   
+    .foot_sec {    
+    width:154px;  
+    border-top:1px solid $black3;
+    position:relative;  
+    display:flex; 
+    margin-top:17px;   
+    margin-left:4px;
+    padding-top:17px; 
+ 
+    .like {  
+     background: url('../img/sprites.png') no-repeat -800px -798px;
+     width: 20px;
+     height: 35px; 
+     border:1px solid $black3; 
+     margin-right:2px; 
+    } 
+    .change {  
+     background: url('../img/sprites.png') no-repeat  -726px -733px;
+     width: 20px;
+     height: 35px; 
+     border:1px solid $black3; 
+     margin-left:2px;
+    } 
+    .price {    
+     background:$black3; 
+     margin-left:48px; 
+     width:60px;
+   }
+      p{
+      color:$white; 
+      font-size:15px;   
+      font-weight:500; 
+      margin-top:10px; 
+      margin-left:5px;
+     }
+     .rectangle {   
+       width:20px; 
+       height:4px; 
+       background:$yellow;
+       position:absolute; 
+       bottom:53px;
+       left:65px;
+     }  
+ 
+    }
+   }
+ 
+    }  
+     /************** new block************************/  
+     .option_blocks__item_sale {  
+      width:170px; 
+      height:410px;  
+      border: 1px solid transparent; 
+      background:$gray4; 
+      margin:12px; 
+      position:relative;
+     
+      .sale { 
+        width:25px; 
+        height:15px;  
+        border:2px solid $black3;  
+        background:$black3;
+        border-radius: 0 0 50% 50% / 0 0 100% 100%; 
+        font-size:10px; 
+        padding-left:3px; 
+        color:$white; 
+        position:absolute; 
+        top:0px; 
+        left:67px;
+      }      
+   
+     .content {   
+      height:134px;
+      border:1px solid $gray3; 
+      margin-top:260px;
+      padding-top:15px; 
+      background:$white;
+      p { color:$black3;  
+          font-size:13px; 
+          font-weight:600; 
+          margin-left:16px;
+      }  
+      .star {    
+       height:16px;  
+       width:90px;   
+       margin-left:40px; 
+       margin-top:17px;
+       background: url("../img/sprites.png") no-repeat -1606px -1547px;
+      }   
+      .foot_sec {    
+      width:154px;  
+      border-top:1px solid $black3;
+      position:relative;  
+      display:flex; 
+      margin-top:17px;   
+      margin-left:4px;
+      padding-top:17px; 
+   
+      .like {  
+       background: url('../img/sprites.png') no-repeat -800px -798px;
+       width: 20px;
+       height: 35px; 
+       border:1px solid $black3; 
+       margin-right:2px; 
+      } 
+      .change {  
+       background: url('../img/sprites.png') no-repeat  -726px -733px;
+       width: 20px;
+       height: 35px; 
+       border:1px solid $black3; 
+       margin-left:2px;
+      } 
+      .price {    
+       background:$black3; 
+       width:55px; 
+       border:1px solid transparent; 
+     }   
+
+     .old_price {    
+      background:$white; 
+      width:43px;   
+      padding-right:3px;
+      position:relative;
+      border:1px solid transparent; 
+      p {font-weight:10;  
+         font-size:13px;
+         color:$gray5;
+       } 
+       .line {  
+        width:36px; 
+        height:1px;  
+        background:$black3; 
+        position:absolute; 
+        bottom:19px; 
+        left:7px;
+       }
+    }
+        p{
+        color:$white; 
+        font-size:15px;   
+        font-weight:500; 
+        margin-top:10px; 
+        margin-left:5px;
+       }
+       .rectangle {   
+         width:20px; 
+         height:4px; 
+         background:$yellow;
+         position:absolute; 
+         bottom:53px;
+         left:65px;
+       }  
+   
+      }
+     }
+   
+      } 
   }
 
