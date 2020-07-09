@@ -20,7 +20,7 @@
         width: 9px;
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
-        background-position: -10px -10px;  
+        background-position: -12px -12px;
         margin-left:45px;  
         margin-top:-9px;
       }  
@@ -39,7 +39,7 @@
         width: 9px;
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
-        background-position: -10px -10px;  
+        background-position:  -12px -12px;
         margin-left:61px;  
         margin-top:-9px; 
       }   
@@ -57,7 +57,7 @@
         width: 9px;
 	      height: 6px;
         background:url(../img/sprites.png) no-repeat;  
-        background-position: -10px -10px;  
+        background-position:  -12px -12px; 
         margin-left:46px; 
         margin-top:-9px;
 
@@ -80,7 +80,7 @@
      .Login_ic {   
       margin-top:7px;  
       background:url(../img/sprites.png) no-repeat;  
-      background-position: -415px -435px;
+      background-position: -352px -378px;
       width: 13px;
 	    height: 15px;
      }
@@ -93,7 +93,7 @@
 	    height: 14px;
       margin-top:7px;
       background:url(../img/sprites.png) no-repeat;  
-      background-position:-182px -196px;
+      background-position: -208px -222px;
     } 
 
 
@@ -117,7 +117,7 @@
       width: 17px;
       height: 17px; 
       background:url(../img/sprites.png) no-repeat;  
-      background-position:-765px -776px;
+      background-position: -818px -833px;
       margin-left:25px;  
       margin-top:9px;
      }
@@ -150,7 +150,7 @@
   height: 32px;   
   margin-right:5px;
   background:url(../img/sprites.png) no-repeat;  
-  background-position: -1499px -1459px;
+  background-position:  -1709px -1666px;
   }   
 
   .logo { 
@@ -169,7 +169,8 @@
 
   .basket { 
     background:url(../img/sprites.png) no-repeat;  
-    background-position:  -1222px -1213px;
+    background-position:  -1408px -1396px;
+    width: 25px;
     width: 23px;
 	  height: 21px;
   
@@ -219,21 +220,21 @@
       border:1px solid $black3; 
      }
      .hamburger {   
-      background: url("../img/sprites.png") no-repeat -1137px -1133px; 
+      background: url("../img/sprites.png") no-repeat -1314px -1308px;
       width: 31px;
       height: 19px; 
       position:absolute; 
       left:19px; 
-      bottom:33px;
+      bottom:32px;
      }  
 
      .arrow {  
-      background: url("../img/sprites.png") no-repeat -39px -36px;
+      background: url("../img/sprites.png") no-repeat -45px -42px;
       width: 10px;
       height: 7px;  
       position:absolute; 
       left:135px;
-      bottom:39px;
+      bottom:37px;
      } 
      .text { 
        width:178px; 
@@ -245,7 +246,7 @@
        margin-left:-5px;
      } 
      .search {  
-     background: url("../img/sprites.png") no-repeat -838px -844px;
+     background: url("../img/sprites.png") no-repeat -900px -907px;
      width: 15px;
      height: 16px;  
      position:absolute; 
@@ -285,7 +286,7 @@
     width: 855px; 
     display:flex; 
     position:relative; 
-    /*border:2px solid greenyellow;*/
+    border:2px solid greenyellow;
   } 
    
   .options__bar {  
@@ -347,7 +348,7 @@
        background:$black3;
        margin-top:90px; 
        .basket {  
-        background: url("../img/sprites.png") no-repeat -1222px -1213px;
+        background: url("../img/sprites.png") no-repeat -1408px -1396px;
       	width: 24px;
         height: 21px;  
         position:absolute; 
@@ -422,23 +423,23 @@
        .eye {  
         margin-left:3px;
         border:1px solid $black3;
-        background: url("../img/sprites.png") no-repeat -617px -634px;
+        background: url("../img/sprites.png") no-repeat -694px -712px;
         width:23px; 
-        height:33px;
+        height:33px;  
         } 
         .heart {  
           width:23px; 
           height:33px;  
           margin-left:3px;
           border:1px solid $black3; 
-          background: url("../img/sprites.png") no-repeat -799px -800px; 
+          background: url("../img/sprites.png") no-repeat  -935px -938px;
           } 
           .arrows {  
             width:23px; 
             height:33px;  
             margin-left:3px;
             border:1px solid $black3; 
-            background: url("../img/sprites.png")no-repeat -724px -735px; 
+            background: url("../img/sprites.png")no-repeat -856px -862px;
             } 
        .prices {     
         display:flex; 
@@ -586,7 +587,7 @@
         border-radius:50%; 
         margin-left:13px; 
         margin-top:15px;
-        background: url("../img/sprites.png")  no-repeat -1309px -1296px;
+        background: url("../img/sprites.png")  no-repeat -1502px -1485px;
       }
 
       
@@ -626,26 +627,26 @@
        border-radius:50%;    
        .support_ic{   
          border-radius:50%; 
-         margin-left:13px; 
-         margin-top:15px;
-         background: url("../img/sprites.png")  no-repeat -1265px -1254px;
+         margin-left:15px; 
+         margin-top:16px;
+         background: url("../img/sprites.png")  no-repeat -1455px -1441px;
          width: 24px;
          height: 22px;
        }  
        .money_back_ic {   
         border-radius:50%;
-        margin-left:13px; 
-        margin-top:15px;
-        background: url("../img/sprites.png")no-repeat -1406px -1372px;
+        margin-left:15px; 
+        margin-top:16px;
+        background: url("../img/sprites.png")no-repeat -1608px -1571px;
         width: 26px;
         height: 24px;
       }  
         
       .discount_ic {   
         border-radius:50%;
-        margin-left:13px; 
+        margin-left:14px; 
         margin-top:15px;
-        background: url("../img/sprites.png")no-repeat -1451px -1416px;
+        background: url("../img/sprites.png")no-repeat -1658px -1619px;
         width: 35px;
         height: 28px;
       } 
@@ -813,7 +814,7 @@
 
   }  
   .option_blocks {  
-  /*border:2px solid fuchsia;*/
+/*border:2px solid fuchsia;*/
   margin-left:10px; 
   padding-left:25px; 
   padding-top:15px;
@@ -859,11 +860,11 @@
     padding-left:27px; 
 
     .basket { 
-      background: url('../img/sprites.png') no-repeat -1223px -1214px;
-      width: 21px;
-      height: 19px; 
+      background: url('../img/sprites.png') no-repeat -1221px -1224px;
+      width: 31px;
+      height: 25px; 
       position:absolute; 
-      top:6px;
+      top:2px;
       left:3px;
     } 
   } 
@@ -896,7 +897,7 @@
     width:90px;   
     margin-left:40px; 
     margin-top:17px;
-    background: url("../img/sprites.png") no-repeat -1606px -1547px;
+    background: url("../img/sprites.png") no-repeat -1824px -1761px;
    }   
    .foot_sec {    
    width:154px;  
@@ -908,14 +909,14 @@
    padding-top:17px; 
 
    .like {  
-    background: url('../img/sprites.png') no-repeat -800px -798px;
+    background: url('../img/sprites.png') no-repeat  -938px -937px;
     width: 20px;
     height: 35px; 
     border:1px solid $black3; 
     margin-right:2px; 
    } 
    .change {  
-    background: url('../img/sprites.png') no-repeat  -726px -733px;
+    background: url('../img/sprites.png') no-repeat  -857px -860px;
     width: 20px;
     height: 35px; 
     border:1px solid $black3; 
@@ -984,7 +985,7 @@
      width:90px;   
      margin-left:40px; 
      margin-top:17px;
-     background: url("../img/sprites.png") no-repeat -1606px -1547px;
+     background: url("../img/sprites.png") no-repeat -1824px -1761px;
     }   
     .foot_sec {    
     width:154px;  
@@ -996,14 +997,14 @@
     padding-top:17px; 
  
     .like {  
-     background: url('../img/sprites.png') no-repeat -800px -798px;
+     background: url('../img/sprites.png') no-repeat -938px -937px;
      width: 20px;
      height: 35px; 
      border:1px solid $black3; 
      margin-right:2px; 
     } 
     .change {  
-     background: url('../img/sprites.png') no-repeat  -726px -733px;
+     background: url('../img/sprites.png') no-repeat  -857px -861px;
      width: 20px;
      height: 35px; 
      border:1px solid $black3; 
@@ -1073,7 +1074,7 @@
        width:90px;   
        margin-left:40px; 
        margin-top:17px;
-       background: url("../img/sprites.png") no-repeat -1606px -1547px;
+       background: url("../img/sprites.png") no-repeat -1821px -1761px;
       }   
       .foot_sec {    
       width:154px;  
@@ -1085,14 +1086,14 @@
       padding-top:17px; 
    
       .like {  
-       background: url('../img/sprites.png') no-repeat -800px -798px;
+       background: url('../img/sprites.png') no-repeat -938px -937px;
        width: 20px;
        height: 35px; 
        border:1px solid $black3; 
        margin-right:2px; 
       } 
       .change {  
-       background: url('../img/sprites.png') no-repeat  -726px -733px;
+       background: url('../img/sprites.png') no-repeat  -857px -861px;
        width: 20px;
        height: 35px; 
        border:1px solid $black3; 
@@ -1143,5 +1144,289 @@
      }
    
       } 
-  }
+  }   
+  .gallery { 
+  /*background:firebrick;*/
+  .gallery__logo {    
+  margin-top:30px;   
+  padding-left:55px; 
+  font-size:16px; 
+  font-weight:900; 
+  letter-spacing:0px; 
+  word-spacing:0px; 
+  color:$yellow;
+   .progressbar {  
+   width:367px; 
+   height:3px;   
+   position:relative;
+   margin-top:14px;
+   background:$gray3; 
+   .progress {  
+    width:30px;  
+    height:3px;
+    background:$yellow; 
+   }
+   }
+   } 
 
+  .gallery__nav {  
+   margin-top:32px;
+   width:366px; 
+   height:44px; 
+   margin-left:55px; 
+   margin-bottom:1px;
+   display:flex;  
+   border:1px solid transparent;
+   .option_active {  
+    width:111px;  
+    height:32px;     
+    background:$gray4;
+    border-top:3px solid $yellow;
+    color:$yellow;
+    font-size:14px;  
+    font-weight:900; 
+    padding-top:11px; 
+    padding-left:5px;
+   }
+    .option {  
+     width:105px;  
+     height:32px;   
+     margin-left:-1px;
+     font-size:14px; 
+     font-weight:900;  
+     padding-top:12px;
+     padding-left:10px;
+     border:1px solid $gray3; 
+    } 
+  
+  }   
+  .gallery__price {  
+    border:1px solid $gray3;  
+    border-top:1px solid transparent;  
+    background:$gray4;
+    position:relative;
+    margin-left:55px;  
+    width:365px; 
+    .favicon_block {   
+      margin-top:117px; 
+      margin-left:7px;
+     .heart {  
+      background: url('../img/sprites.png')  no-repeat -935px -936px;
+      width: 23px; 
+      height:35px; 
+      border:1px solid $black3;
+      }  
+      .arrow {  
+        background: url('../img/sprites.png')  no-repeat -856px -859px;
+        width: 23px; 
+        height:35px; 
+        border:1px solid $black3; 
+        margin-top:9px;
+        }  
+       .eye {  
+        background: url('../img/sprites.png')  no-repeat  -694px -710px;
+        width: 23px; 
+        height:35px; 
+        border:1px solid $black3; 
+        margin-top:9px;
+        }  
+       .basket{  
+        background: url('../img/sprites.png')  no-repeat -1223px -1220px;
+        width: 23px; 
+        height:35px;  
+        color:$yellow;
+        border:1px solid $yellow; 
+        margin-top:9px;
+          } 
+
+    }  
+    .circle_price {  
+     width:80px; 
+     height:60px;   
+     background:$gray8; 
+     color:$white;
+     border-radius:50%;
+     border:1px solid transparent;
+     text-align:center;  
+     line-height:21px;
+     padding-top:25px;
+     position:absolute;  
+     position:relative;
+     bottom:101px; 
+     left:235px; 
+     z-index:80; 
+     span {  
+      font-size:14px; 
+      font-weight:500; 
+     }  
+     p {  
+       font-weight:500; 
+       font-size:17px;
+      }
+     .line {  
+      width:50px; 
+      height:1px;  
+      background:$white; 
+      position:absolute; 
+      bottom:27px; 
+      left:15px;
+     }
+    }
+    .add {
+      width: 57px; 
+      height: 14px; 
+      background: $black3;
+      position: relative;
+      color:$white; 
+      font-size:10px;  
+      letter-spacing:0px; 
+      word-spacing:-1px; 
+      padding:2px; 
+      padding-top:9px; 
+      position:absolute; 
+      bottom:209px; 
+      left:36px;
+      }
+      .add:before {
+      content: "";
+      width: 1px; 
+      height: 0;
+      position: absolute; 
+      right: 100%; 
+      top: calc(50% - 5px);
+      border-top: 5px solid transparent;
+      border-right: 5px solid $black3;
+      border-bottom: 5px solid transparent;
+      } 
+      .logo {  
+        width:162px;  
+        height:103px;   
+        background:$white;
+        border:1px solid transparent; 
+        position:absolute; 
+        bottom:123px; 
+        left:200px;    
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,4);
+        p { color:$black3;  
+          font-size:13px; 
+          font-weight:600;  
+          margin-top:34px;
+          margin-left:16px;
+        }
+        .star {  
+         background:url(../img/sprites.png) no-repeat -1802px -1761px;  
+         border:1px solid transparent; 
+         height:17px;  
+         width:125px; 
+         margin-top:15px; 
+         margin-left:16px;  
+      }
+    }   
+    .logo::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 10px solid transparent;
+      border-left: 10px solid  #000;
+      border-top: 10px solid #000;
+    } 
+    .logo::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border: 10px solid transparent;
+      border-right: 10px solid #000;
+      border-bottom:10px solid #000;
+    } 
+    .slider {   
+     border:1px solid $gray3; 
+     display:flex; 
+     margin-top:24px;
+    .slider__left_click {   
+      border:1px solid $black3;
+      background:$black3;   
+      position:relative; 
+      margin:7px 3px;
+      height:70px; 
+      width:23px; 
+    .left_arrow {  
+      background:url(../img/sprites.png) no-repeat -104px -106px ; 
+      border:1px solid transparent;
+      height:15px; 
+      width:15px; 
+      position:absolute; 
+      top:28px; 
+      right:3px;
+    }
+    }  
+    .slider__right_click {   
+      border:1px solid $black3;
+      background:$black3;   
+      position:relative;
+      height:70px; 
+      width:23px;  
+      margin:7px 3px;
+      .right_arrow {  
+      background:url(../img/sprites.png) no-repeat -142px -145px;
+      height:15px; 
+      width:15px; 
+      position:absolute; 
+      top:28px; 
+      left:3px;
+      border:1px solid transparent;
+    }
+    } 
+    .slider_item   {  
+      width:50px; 
+      height:70px; 
+      background:$gray6; 
+      border:1px solid transparent; 
+      margin:7px 3px;
+    }
+    }
+  } 
+ } 
+ .price_and_order {  
+  width:365px;  
+  height:600px;   
+  margin-top:32px; 
+  margin-left:18px; 
+  background:$gray;
+  border:1px solid $gray; 
+  .price {   
+    margin-top:73px; 
+    margin-left:10px;   
+    padding-left:25px; 
+    font-size:14px; 
+    font-weight:700; 
+   span {  
+   color:$green;  
+   font-size:40px; 
+   font-weight:600;  
+   }
+  } 
+  .price_and_order__title {    
+    border:1px solid transparent;  
+    background:$gray;
+    margin-top:25px; 
+    margin-left:25px;
+    font-size:35px; 
+    font-weight:700;   
+    letter-spacing:-1px;
+    color:$yellow; 
+  } 
+  button {  
+  margin-top:35px; 
+  margin-left:40px; 
+  height:54px;  
+  width:90px; 
+  font-weight:600;
+  color:$white; 
+  background:$green;
+  border:none; 
+  border-radius:5%; 
+  font-size:11px;
+  }
+ }
