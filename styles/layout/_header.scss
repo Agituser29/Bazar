@@ -1429,4 +1429,147 @@
   border-radius:5%; 
   font-size:11px;
   }
+ } 
+ .latest_blog {   
+ .latest_blog__logo {  
+   font-size:16px; 
+   font-weight:600;  
+   word-spacing:-1px;
+   color:$yellow;  
+   margin-top:55px; 
+   margin-left:50px;
+ } 
+ .wrapper{ 
+  display:flex;
+ .latest_blog__line {  
+  width:693px; 
+  height:3px;  
+  margin-left:57px; 
+  margin-top:11px;
+  background:$gray3;  
+  .progress{  
+   width:30px; 
+   height:3px;  
+   background:$yellow;
+  }
+ } 
+ .latest_blog__circles {   
+  display:flex;  
+  margin-left:14px;  
+  margin-top:7px;
+
+ .circle {  
+    width:10px; 
+    height:10px;  
+    border-radius:50%;
+   background:$yellow; 
+  } 
+  .gray_circle {  
+    width:10px; 
+    height:10px;   
+    border-radius:50%;
+    background:$gray3; 
+    margin-left:7px;
+  }
+} 
+  } 
+  .latest_blog__products {    
+  display:flex; 
+  padding-left:47px;
+ .product {  
+  width:238px; 
+  height:291px;   
+  border:1px solid transparent;
+  position:relative;
+  background:$gray5;  
+  margin:25px 9px;
+ 
+  .content {  
+    width:199px; 
+    height:350px;   
+    display:flex; 
+    flex-wrap:wrap;
+    position:absolute; 
+    top:229px; 
+    left:17px;
+    background:$white; 
+    border:1px solid transparent; 
+    .wrapper { 
+      border:1px solid transparent; 
+      margin-top:21px; 
+      margin-left:13px; 
+      height:25px; 
+     .icon {  
+      background:url(../img/sprites.png)  no-repeat -244px -260px; 
+      width: 13px;
+      height: 14px;   
+      margin-right:4px;
+     }  
+     .iconn {  
+      background:url(../img/sprites.png)  no-repeat -657px -684px;
+      width: 13px;
+      height: 14px;   
+      margin-right:4px;
+     } 
+      .date {   
+      font-size:11px;    
+      margin-top:2px;
+      }  
+      .comments {   
+        font-size:11px;    
+        margin-top:2px;
+        } 
+    }   
+    p { 
+      font-size:13px;   
+      color:$yellow; 
+      word-spacing:-1px; 
+      margin-top:24px;  
+      margin-bottom:0px; 
+      font-weight:700;
+    }   
+    .black_p{ 
+      font-size:13px;   
+      color:$black3; 
+      word-spacing:-1px; 
+      margin-top:24px;  
+      margin-bottom:0px; 
+      font-weight:700;
+    }  
+    .description {  
+      font-size:10px;    
+      line-height:25px; 
+      word-spacing:-1px;
+      color:$black5;  
+      margin-top:0px;
+      margin-bottom:100px;
+    }
+    .yellow {   
+    width:110px; 
+    height:45px;   
+    font-size:12px; 
+    font-weight:700;
+    background:$yellow; 
+    color:$white;
+    border:none;
+    position:absolute; 
+    bottom:40px; 
+    left:45px;
+    } 
+    .black {   
+      width:110px; 
+      height:45px;   
+      font-size:12px; 
+      font-weight:700;
+      background:$black3; 
+      color:$white;
+      border:none;
+      position:absolute; 
+      bottom:40px; 
+      left:45px;
+      }
+  } 
+
+ }
+  }
  }
