@@ -75,7 +75,7 @@
    .header_top__log {  
      display:flex; 
      margin-top:10px;
-     margin-left:415px; 
+     margin-left:723px; 
       
      .Login_ic {   
       margin-top:7px;  
@@ -119,7 +119,7 @@
       background:url(../img/sprites.png) no-repeat;  
       background-position: -818px -833px;
       margin-left:25px;  
-      margin-top:9px;
+      margin-top:7px;
      }
    
     }   
@@ -133,7 +133,7 @@
     height:145px;
   .phone {  
     display:flex; 
-    margin-left:50px;   
+    margin-left:10px;  
     margin-top:20px; 
     height:50px;
   }
@@ -154,10 +154,10 @@
   }   
 
   .logo { 
-    margin-left:193px; 
+    margin-left:390px; 
   }
    .wrapper_basket {     
-     margin-left:210px; 
+     margin-left:337px; 
      margin-top:12px;
      display:flex; 
      justify-content:center; 
@@ -170,7 +170,6 @@
   .basket { 
     background:url(../img/sprites.png) no-repeat;  
     background-position:  -1408px -1396px;
-    width: 25px;
     width: 23px;
 	  height: 21px;
   
@@ -192,31 +191,36 @@
    
   .header_bottom {  
    height:87px;  
-   color:$white;    
+   color:$white; 
+   display:flex;    
   
 
     .header_bottom__left_field {  
      margin-top:18px;   
-     margin-left:40px;
+     margin-left:0px; 
+     display:flex;  
+     flex-wrap:nowrap;
      position:relative;
      .field {  
-      width:107px; 
-      height:43px;  
-      padding-left:31px;   
+      width:178px; 
+      height:47px;  
+      padding-left:66px;   
       margin-left:14px;
       letter-spacing:-1px; 
       word-spacing:0px;
-      font-weight:500;
+      font-weight:500; 
+      font-size:15px;
       border:1px solid $black3; 
      } 
      .field2 {  
-      width:145px; 
-      height:43px;  
+      width:277px; 
+      height:47px;  
       padding-left:31px;   
-      margin-left:-5px;
+      margin-left:-1px;
       letter-spacing:-1px; 
       word-spacing:0px;
-      font-weight:500;
+      font-weight:500; 
+      font-size:15px;
       border:1px solid $black3; 
      }
      .hamburger {   
@@ -224,8 +228,8 @@
       width: 31px;
       height: 19px; 
       position:absolute; 
-      left:19px; 
-      bottom:32px;
+      left:23px; 
+      bottom:34px;
      }  
 
      .arrow {  
@@ -233,8 +237,8 @@
       width: 10px;
       height: 7px;  
       position:absolute; 
-      left:135px;
-      bottom:37px;
+      left:238px;
+      bottom:40px;
      } 
      .text { 
        width:178px; 
@@ -250,7 +254,7 @@
      width: 15px;
      height: 16px;  
      position:absolute; 
-     left:309px;
+     left:543px;
      bottom:34px;
      }
     } 
@@ -258,13 +262,13 @@
       display:flex;  
       height:50px; 
       padding-top:33px;  
-      margin-left:58px;
+      margin-left:75px;
   
         a { 
           text-decoration:none; 
-          font-size:12px;  
+          font-size:15px;  
           font-weight:600;
-          margin-left:12px; 
+          margin-left:15px; 
           color:$black3; 
         } 
       .wrapp_a {  
@@ -272,21 +276,20 @@
        background:$yellow;   
        border-top:3px solid $black3;
        color:$white;
-       width:40px; 
-       height:54px;  
+       width:74px; 
+       height:85px;  
        margin-top:-35px;  
-       padding-top:29px; 
-       padding-right:15px;
+       padding-top:29px;
        a {color:$white;}
       }
     }
   } 
   .general_container {  
     margin: 0 auto;
-    width: 855px; 
+    width: 1140px; 
     display:flex; 
     position:relative; 
-    /*border:2px solid greenyellow;*/
+    border:2px solid transparent;
   } 
    
   .options__bar {  
@@ -294,22 +297,21 @@
    display:flex;
 
   .hot_deals { 
-    margin-left:61px; 
-   
+
   .hot_deals__header {  
     background:$black3; 
-    width:225px; 
+    width:360px; 
     height:35px; 
     padding-top:14px; 
-    padding-left:10px;
     p {  
       color:$white;   
       font-size:15px; 
-      font-weight:"SemiBold"; 
+      font-weight:"SemiBold";  
+      margin-left:30px;
     } 
     .header_items {  
       display:flex;  
-      margin-left:164px; 
+      margin-left:279px; 
       margin-top:-14px;
       .circle {  
        width:13px;  
@@ -334,13 +336,13 @@
      height:290px;
     .hot_deals__button {   
        position:relative;
-       width:105px;  
+       width:132px;  
        height:40px;    
-       padding-top:4px; 
+       padding-top:3px; 
        padding-left:33px; 
-       margin-left:64px;
+       margin-left:115px;
        border:none; 
-       font-size:10px;  
+       font-size:11px;  
        word-spacing:-1px; 
        color:$white;
        font-family:"Poppins"; 
@@ -358,17 +360,18 @@
          } 
          .hot_deals__time_bar {  
           display:flex; 
-          margin-top:70px;
+          margin-top:60px; 
+          
           .time {  
             background:$black4;
             color:$white;
             text-align:center;  
-            margin-left:5px;
+            margin-left:13px;
             padding-top:20px;
-            width:52px;    
-            height:49px; 
+            width:72px;    
+            height:69px; 
             border-radius:50%; 
-            font-size:12px; 
+            font-size:14px; 
             font-weight:550; 
             line-height:19px; 
             span { 
@@ -387,21 +390,21 @@
      height:60px;
      text-align:center; 
      p { color:$black3;  
-         font-size:13px; 
+         font-size:17px; 
          font-weight:600;
        } 
        .foot_sec {  
         border-bottom:1px solid $black3;
         height:44px; 
-        width:224px; 
-        margin-left:5px;
+        width:324px; 
+        margin-left:17px;
         position:relative;
         .star {    
          height:16px;  
          width:90px;   
-         margin-left:75px; 
+         margin-left:115px; 
          margin-top:19px;
-         background: url("../img/sprites.png") no-repeat -1606px -1547px;
+         background: url("../img/sprites.png") no-repeat -1820px -1761px;
         }  
 
         .rectangle {   
@@ -410,7 +413,7 @@
           background:$yellow;
           position:absolute; 
           top:42px; 
-          left:94px;
+          left:147px;
         } 
 
        }
@@ -419,53 +422,57 @@
      height:47px;
      .f_f_i {   
        display:flex;   
-       margin-top:30px;
+       margin-top:30px; 
+       margin-left:14px;
        .eye {  
         margin-left:3px;
         border:1px solid $black3;
-        background: url("../img/sprites.png") no-repeat -694px -712px;
-        width:23px; 
-        height:33px;  
+        background: url("../img/sprites.png") no-repeat -687px -708px;
+        width:37px; 
+        height:37px;  
         } 
         .heart {  
-          width:23px; 
-          height:33px;  
+          width:37px; 
+          height:37px;  
           margin-left:3px;
           border:1px solid $black3; 
-          background: url("../img/sprites.png") no-repeat  -935px -938px;
+          background: url("../img/sprites.png") no-repeat  -928px -935px;
           } 
           .arrows {  
-            width:23px; 
-            height:33px;  
+            width:37px; 
+            height:37px;  
             margin-left:3px;
             border:1px solid $black3; 
-            background: url("../img/sprites.png")no-repeat -856px -862px;
+            background: url("../img/sprites.png")no-repeat -849px -858px;
             } 
        .prices {     
-        display:flex; 
+        display:flex;  
+        margin-left:23px;
         .was {    
          margin-right:2px;
-         font-size:12px;  
-         padding-top:11px; 
+         font-size:14px;  
+         padding-top:12px; 
          margin-left:28px;
          color:$gray5;
          position:relative;  
          p:after {  
           content:"";  
           display:block; 
-          width:45px;
+          width:58px;
           height:1px;
           background:$black3;
           position:absolute; 
-          top:16px; 
-          left:1px;
+          top:18px; 
+          left:0px;
           }
          } 
          .is_now {  
           color:$white;
           background:$black3;
-          padding-top:9px; 
-          font-size:15px; 
+          padding-top:9px;  
+          padding-left:15px;
+          font-size:15px;    
+          width:77px;
          }
         } 
      } 
@@ -477,20 +484,20 @@
  }  
  .shop_now {  
   background: $gray6;
-  margin-left:14px; 
-  height:511px;  
-  width:500px; 
+  margin-left:30px; 
+  height:505px;  
+  width:750px; 
    
   .shop_now__middle {    
     border-top:1px solid $gray7;  
     position:relative;
     background:$gray7;  
     margin-top:143px; 
-    height:214px; 
+    height:215px; 
     .shop_now__content {  
-    margin-top:78px;   
+    margin-top:47px;   
     text-align:center; 
-    font-size:45px;    
+    font-size:48px;    
     font-family:"Poppins";
     font-weight:"Light"; 
     word-spacing:-1px;
@@ -498,24 +505,24 @@
     line-height:1.5; 
     span { font-weight:900;}
     p{  
-      font-size:19px;  
+      font-size:23px;  
       font-weight:"light"; 
       word-spacing:-1px;
      }
     } 
     .shop_now__B {  
-      width:89px; 
+      width:137px; 
       height:55px;    
       border-radius:5%; 
       background:$white;
-      font-size:12px;  
+      font-size:13px;  
       font-weight:700;
       word-spacing:-1px;  
       color:$black3;
       border:none;
       position:absolute; 
-      top:182px; 
-      left:201px;
+      top:185px; 
+      left:307px;
     }
   } 
   .shop_now__footer {    
@@ -523,24 +530,24 @@
     margin-top:108px;  
     display:flex;
     .left_side {  
-      width:250px;
+      width:375px;
       background:$black3;
     .l_arrow {  
       background: url("../img/sprites.png") no-repeat -109px -108px;
       width: 9px;
       height: 13px;  
-      margin-left:118px;  
+      margin-left:165px;  
       margin-top:14px;  
     }  
     } 
     .right_side { 
       background:$yellow; 
-      width:250px;
+      width:375px;
     .r_arrow {   
       background: url("../img/sprites.png")  no-repeat -142px -145px;
       width: 9px;
       height: 13px;  
-      margin-left:114px;  
+      margin-left:165px;  
       margin-top:14px;
     } 
     }
@@ -549,37 +556,39 @@
  } 
  .offer_options { 
   display:flex; 
-  margin-left:60px;
-  margin-top:67px;
-
+  margin-top:67px; 
+  font-size:20px;
 .shipping {
-   width:170px; 
-   height:70px;   
+   width:262px; 
+   height:106px;   
    border:1px solid $gray8;
    position:relative;
    text-align:center; 
    line-height:1.7; 
-   padding-top:50px;
+   padding-top:65px;
    color:$yellow1;
-   span {font-weight:900;}
-    
+   span {font-weight:900; 
+         margin-top:10px;                 
+        }
+        
+  
    .wrap {  
-    width:65px; 
-    height:65px;   
+    width:77px; 
+    height:77px;   
     border-radius:50%; 
     border:1px solid $yellow2;   
     background:$white;
     position:absolute; 
-    bottom:94px; 
-    left:55px; 
+    bottom:132px; 
+    left:93px; 
     .sprite {  
       background: url("../img/sprites.png")  no-repeat -1309px -1296px; 
       background:$yellow;  
       border:1px solid $yellow3;
-      width:55px; 
-      height:55px;   
-      margin-left:4px; 
-      margin-top:4px;
+      width:62px; 
+      height:62px;   
+      margin-left:7px; 
+      margin-top:7px;
       border-radius:50%;    
       .sp_ic {   
         width: 32px;
@@ -587,7 +596,7 @@
         border-radius:50%; 
         margin-left:13px; 
         margin-top:15px;
-        background: url("../img/sprites.png")  no-repeat -1502px -1485px;
+        background: url("../img/sprites.png")  no-repeat -1500px -1483px;
       }
 
       
@@ -596,39 +605,39 @@
    } 
 
    .options {
-    width:170px; 
-    height:70px;   
+    width:262px; 
+    height:106px;
     border:1px solid $gray8;  
-    margin-left:19px;
+    margin-left:28px;
     position:relative;
     text-align:center; 
     line-height:1.7; 
-    padding-top:50px; 
+    padding-top:65px; 
     color:$black3; 
     span {font-weight:900;}
      
     .wrap {  
-     width:65px; 
-     height:65px;   
+     width:77px; 
+     height:77px;   
      border-radius:50%; 
      border:1px solid $gray8;   
      background:$white;
      position:absolute; 
-     bottom:94px; 
-     left:55px; 
+     bottom:130px; 
+     left:85px; 
      .sprite {  
        background: url("../img/sprites.png")  no-repeat -1309px -1296px; 
        background:$white;  
        border:1px solid $gray8;
-       width:55px; 
-       height:55px;   
-       margin-left:4px; 
-       margin-top:4px;
+       width:62px; 
+       height:62px; 
+       margin-left:7px; 
+       margin-top:7px;
        border-radius:50%;    
        .support_ic{   
          border-radius:50%; 
-         margin-left:15px; 
-         margin-top:16px;
+         margin-left:18px; 
+         margin-top:19px;
          background: url("../img/sprites.png")  no-repeat -1455px -1441px;
          width: 24px;
          height: 22px;
@@ -661,13 +670,12 @@
     margin-top:10px; 
     .square__item {  
       margin-top:23px; 
-      margin-left:55px; 
-      height:417px; 
-      width: 365px;  
+      height:420px; 
+      width: 555px;  
       background:$black1; 
       .guest_room {  
-        height:352px; 
-        width: 317px;     
+        height:355px; 
+        width: 490px;     
         border-top:1px solid $black5;
         background:$black5;
         margin:0 auto; 
@@ -675,8 +683,8 @@
        .content { 
         height:190px; 
         width: 217px;   
-        margin-top: 143px; 
-        padding-left:7px; 
+        margin-top: 140px; 
+        padding-left:23px; 
         color:$white;
         word-spacing: 0px; 
         letter-spacing:0px; 
@@ -706,15 +714,15 @@
     .chair {  
       border-top:1px solid $gray; 
       margin-top:24px;
-      height:200px; 
-      width: 364px;   
-      margin-left:20px;
+      height:196px; 
+      width: 554px;   
+      margin-left:31px;
       background:$gray;
-      .content {  
+      .content {   
       height:70px; 
       width: 200px;    
-      margin-top:48px;
-      margin-left:110px;   
+      margin-top:48px; 
+      margin-left:178px;
       font-size:24px; 
       line-height:1.5; 
       span { font-weight:800;}
@@ -722,24 +730,25 @@
       } 
       .price {  
       font-size:30px; 
-      font-weight:900; 
-      margin-left:110px; 
+      font-weight:700;   
+      margin:0 auto;                      
+      margin-left:178px; 
       color:$yellow;
       }
     }   
     .second_chair {  
       border-top:1px solid $gray; 
-      margin-top:14px;
-      height:200px; 
-      width: 364px;  
-      margin-left:20px;
+      margin-top:24px;
+      height:196px; 
+      width: 554px;  
+      margin-left:31px;
       background:$pink;
       .content {  
       height:70px; 
       width: 200px;        
       color:$yellow;
       margin-top:76px;
-      margin-left:155px;   
+      margin-left:288px;   
       font-size:18px;  
       line-height:1.8;  
       span { font-weight:900;}
@@ -757,7 +766,7 @@
   .new_furniture {  
     .new_furniture__nav {   
     margin-top:60px; 
-    margin-left:293px;  
+    margin-left:425px;  
     font-size:14px;  
     font-weight:700;
     a {  
@@ -767,15 +776,14 @@
     }
     }  
     .new_furniture__logo {  
-      color:$yellow;  
-      margin-left:52px; 
+      color:$yellow; 
       font-size:16px;
       width:150px;
       margin-top:-14px;
     } 
     .new_furniture__circles {   
       display:flex;  
-      margin-left:762px;  
+      margin-left:1095px;
       margin-top:8px;
 
      .circle {  
@@ -794,48 +802,45 @@
     }
   .new_furniture__line {  
     display:flex;
-    width:700px;
+    width:1057px;
     height:3px;    
-    margin-left:50px; 
+    margin-left:0px; 
     margin-top:-6px;
     background:$gray3; 
     .bigger_rectangle {  
-     width:30px;
+     width:37px;
      height:3px;   
      background:$yellow;   
     } 
     .smaller_rectangle {  
-     width:23px;
+     width:29px;
      height:3px;   
      background:$yellow;     
-     margin-left:214px;
+     margin-left:392px;
     }
   } 
 
   }  
-  .option_blocks {  
-/*border:2px solid fuchsia;*/
-  margin-left:10px; 
-  padding-left:25px; 
-  padding-top:15px;
+  .option_blocks { 
    display:flex; 
    flex-wrap:wrap;
   .option_blocks__item_s {  
-   width:170px; 
+   width:262px; 
    height:410px;  
    border: 1px solid transparent;  
    background:$gray4; 
-   margin:12px;
+   margin:14px;  
+   margin-bottom:28px;  
   
   .sale { 
-     width:25px; 
-     height:15px;  
-     margin-left:67px;
+     width:37px; 
+     height:24px;  
+     margin-left:100px;
      border:2px solid $black3;  
      background:$black3;
      border-radius: 0 0 50% 50% / 0 0 100% 100%; 
-     font-size:10px; 
-     padding-left:3px; 
+     font-size:13px; 
+     padding-left:10px; 
      color:$white;
    }      
 
@@ -848,35 +853,35 @@
     position:relative;
     border:none; 
     border-radius:4%;
-    font-size:9px; 
+    font-size:11px; 
     font-weight:700; 
     word-spacing:-1px; 
     letter-spacing:0px; 
     background:$black3; 
     color:$white;
-    width:100px; 
-    height:34px;    
-    margin-left:3px;
+    width:134px; 
+    height:37px;    
+    margin-right:7px;
     padding-left:27px; 
 
     .basket { 
-      background: url('../img/sprites.png') no-repeat -1221px -1224px;
+      background: url('../img/sprites.png') no-repeat -1408px -1396px;
       width: 31px;
       height: 25px; 
       position:absolute; 
-      top:2px;
-      left:3px;
+      top:7px;
+      left:7px;
     } 
   } 
   .quick_view {   
-    width:67px; 
-    height:34px;    
-    margin-right:3px;
+    width:89px; 
+    height:37px;    
+    margin-right:24px;
     border:none;   
     border-radius:4%;
     background:$black3;   
     color:$white;
-    font-size:9px; 
+    font-size:10px; 
     font-weight:700;
     word-spacing:-1px; 
     letter-spacing:0px; 
@@ -888,43 +893,42 @@
    padding-top:15px; 
    background:$white;
    p { color:$yellow;  
-       font-size:13px; 
+       font-size:15px; 
        font-weight:600; 
-       margin-left:16px;
+       margin-left:47px;
    }  
    .star {    
     height:16px;  
     width:90px;   
-    margin-left:40px; 
+    margin-left:80px; 
     margin-top:17px;
     background: url("../img/sprites.png") no-repeat -1824px -1761px;
    }   
    .foot_sec {    
-   width:154px;  
+   width:243px;  
    border-top:1px solid $black3;
    position:relative;  
    display:flex; 
    margin-top:17px;   
-   margin-left:4px;
+   margin-left:9px;
    padding-top:17px; 
 
    .like {  
-    background: url('../img/sprites.png') no-repeat  -938px -937px;
-    width: 20px;
-    height: 35px; 
+    background: url('../img/sprites.png') no-repeat  -928px -937px;
+    width: 37px;
+    height: 37px; 
     border:1px solid $black3; 
-    margin-right:2px; 
    } 
    .change {  
-    background: url('../img/sprites.png') no-repeat  -857px -860px;
-    width: 20px;
-    height: 35px; 
+    background: url('../img/sprites.png') no-repeat  -849px -860px;
+    width: 37px;
+    height: 37px; 
     border:1px solid $black3; 
-    margin-left:2px;
+    margin-left:7px;
    } 
    .price {    
     background:$yellow; 
-    margin-left:48px; 
+    margin-left:84px; 
     width:60px;
   }
      p{
@@ -935,60 +939,65 @@
      margin-left:5px;
     }
     .rectangle {   
-      width:20px; 
+      width:31px; 
       height:4px; 
       background:$yellow;
       position:absolute; 
-      bottom:53px;
-      left:65px;
+      bottom:54px;
+      left:101px;
     }  
 
    }
   }
 
-   } 
+   }  
+   .left_n {  
+   margin-left:0px;  
+   }
    /************** new block************************/ 
    .option_blocks__item_empty {  
-    width:170px; 
+    width:260px; 
     height:410px;  
     border: 1px solid transparent;  
     background:$gray4; 
-    margin:12px;   
+    margin:14px;  
+    margin-bottom:28px;   
+    
     position:relative;
     .sale { 
-      width:25px; 
-      height:15px;  
+      width:37px; 
+      height:24px;  
       border:2px solid $black3;  
       background:$black3;
       border-radius: 0 0 50% 50% / 0 0 100% 100%; 
-      font-size:10px; 
-      padding-left:3px; 
+      font-size:13px; 
+      padding-left:10px; 
       color:$white; 
       position:absolute; 
       top:0px; 
-      left:67px;
+      left:100px;
     }      
 
    .content{   
     height:134px;
     border:1px solid $gray3; 
-    margin-top:260px;
+    margin-top:273px;
     padding-top:15px; 
     background:$white;
     p { color:$black3;  
         font-size:13px; 
         font-weight:600; 
-        margin-left:16px;
+        margin-left:61px;
     }  
     .star {    
      height:16px;  
      width:90px;   
-     margin-left:40px; 
+     margin-left:86px; 
      margin-top:17px;
      background: url("../img/sprites.png") no-repeat -1824px -1761px;
     }   
     .foot_sec {    
-    width:154px;  
+    width:248px;  
     border-top:1px solid $black3;
     position:relative;  
     display:flex; 
@@ -997,22 +1006,22 @@
     padding-top:17px; 
  
     .like {  
-     background: url('../img/sprites.png') no-repeat -938px -937px;
-     width: 20px;
-     height: 35px; 
+     background: url('../img/sprites.png') no-repeat -929px -937px;
+     width: 37px;
+     height: 37px; 
      border:1px solid $black3; 
      margin-right:2px; 
     } 
     .change {  
-     background: url('../img/sprites.png') no-repeat  -857px -861px;
-     width: 20px;
-     height: 35px; 
+     background: url('../img/sprites.png') no-repeat  -847px -861px;
+     width: 37px;
+     height: 37px; 
      border:1px solid $black3; 
-     margin-left:2px;
+     margin-left:7px;
     } 
     .price {    
      background:$black3; 
-     margin-left:48px; 
+     margin-left:99px; 
      width:60px;
    }
       p{
@@ -1023,94 +1032,100 @@
       margin-left:5px;
      }
      .rectangle {   
-       width:20px; 
+       width:30px; 
        height:4px; 
        background:$yellow;
        position:absolute; 
-       bottom:53px;
-       left:65px;
+       bottom:54px;
+       left:105px;
      }  
  
     }
    }
  
-    }  
+    }   
+    .left_n {  
+     margin-left:0px; 
+    }
      /************** new block************************/  
      .option_blocks__item_sale {  
-      width:170px; 
+      width:262px;
       height:410px;  
       border: 1px solid transparent; 
-      background:$gray4; 
-      margin:12px; 
+      background:$gray4;
+      margin:13px; 
+      margin-bottom:28px;  
+     
       position:relative;
      
       .sale { 
-        width:25px; 
-        height:15px;  
+        width:37px; 
+        height:24px;  
         border:2px solid $black3;  
         background:$black3;
         border-radius: 0 0 50% 50% / 0 0 100% 100%; 
-        font-size:10px; 
-        padding-left:3px; 
+        font-size:13px;  
+        padding-left:10px; 
         color:$white; 
         position:absolute; 
         top:0px; 
-        left:67px;
+        left:100px;
       }      
    
      .content {   
       height:134px;
       border:1px solid $gray3; 
-      margin-top:260px;
+      margin-top:273px;
       padding-top:15px; 
       background:$white;
       p { color:$black3;  
           font-size:13px; 
           font-weight:600; 
-          margin-left:16px;
+          margin-left:61px;
       }  
       .star {    
        height:16px;  
        width:90px;   
-       margin-left:40px; 
+       margin-left:86px; 
        margin-top:17px;
        background: url("../img/sprites.png") no-repeat -1821px -1761px;
       }   
       .foot_sec {    
-      width:154px;  
-      border-top:1px solid $black3;
-      position:relative;  
-      display:flex; 
+      width:248px;  
+      border-top:1px solid $black3; 
+      position:relative;
+      display:flex;
       margin-top:17px;   
       margin-left:4px;
       padding-top:17px; 
    
       .like {  
-       background: url('../img/sprites.png') no-repeat -938px -937px;
-       width: 20px;
-       height: 35px; 
+       background: url('../img/sprites.png') no-repeat -929px -937px;
+       width: 37px;
+       height: 37px; 
        border:1px solid $black3; 
        margin-right:2px; 
       } 
       .change {  
-       background: url('../img/sprites.png') no-repeat  -857px -861px;
-       width: 20px;
-       height: 35px; 
+       background: url('../img/sprites.png') no-repeat  -847px -861px;
+       width: 37px;
+       height: 37px; 
        border:1px solid $black3; 
        margin-left:2px;
       } 
       .price {    
        background:$black3; 
        width:55px; 
-       border:1px solid transparent; 
+       border:1px solid transparent;  
      }   
 
      .old_price {    
-      background:$white; 
+      background:$white;  
       width:43px;   
-      padding-right:3px;
+      padding-right:3px; 
+      margin-left:61px;
       position:relative;
-      border:1px solid transparent; 
+      border:1px solid transparent;  
       p {font-weight:10;  
          font-size:13px;
          color:$gray5;
@@ -1120,7 +1135,7 @@
         height:1px;  
         background:$black3; 
         position:absolute; 
-        bottom:19px; 
+        bottom:20px; 
         left:7px;
        }
     }
@@ -1132,37 +1147,39 @@
         margin-left:5px;
        }
        .rectangle {   
-         width:20px; 
+         width:30px; 
          height:4px; 
          background:$yellow;
          position:absolute; 
-         bottom:53px;
-         left:65px;
+         bottom:54px;
+         left:105px;
        }  
    
       }
      }
    
-      } 
+      }  
+    .right_n { 
+     margin-right:0px;  
+    }
   }   
   .gallery { 
-  /*background:firebrick;*/
-  .gallery__logo {    
-  margin-top:30px;   
-  padding-left:55px; 
+  .gallery__logo {     
+  margin-top:28px;   
+  padding-left:7px;
   font-size:16px; 
   font-weight:900; 
   letter-spacing:0px; 
   word-spacing:0px; 
   color:$yellow;
    .progressbar {  
-   width:367px; 
+   width:591px; 
    height:3px;   
    position:relative;
    margin-top:14px;
    background:$gray3; 
    .progress {  
-    width:30px;  
+    width:44px;  
     height:3px;
     background:$yellow; 
    }
@@ -1171,14 +1188,13 @@
 
   .gallery__nav {  
    margin-top:32px;
-   width:366px; 
    height:44px; 
-   margin-left:55px; 
+   margin-left:7px; 
    margin-bottom:1px;
    display:flex;  
    border:1px solid transparent;
    .option_active {  
-    width:111px;  
+    width:110px;  
     height:32px;     
     background:$gray4;
     border-top:3px solid $yellow;
@@ -1186,16 +1202,16 @@
     font-size:14px;  
     font-weight:900; 
     padding-top:11px; 
-    padding-left:5px;
+    padding-left:37px;
    }
     .option {  
-     width:105px;  
+     width:111px;  
      height:32px;   
      margin-left:-1px;
      font-size:14px; 
      font-weight:900;  
      padding-top:12px;
-     padding-left:10px;
+     padding-left:36px;
      border:1px solid $gray3; 
     } 
   
@@ -1205,35 +1221,35 @@
     border-top:1px solid transparent;  
     background:$gray4;
     position:relative;
-    margin-left:55px;  
-    width:365px; 
+    margin-left:7px;  
+    width:590px; 
     .favicon_block {   
       margin-top:117px; 
       margin-left:7px;
      .heart {  
-      background: url('../img/sprites.png')  no-repeat -935px -936px;
-      width: 23px; 
-      height:35px; 
+      background: url('../img/sprites.png')  no-repeat -929px -936px;
+      width: 37px; 
+      height:37px; 
       border:1px solid $black3;
       }  
       .arrow {  
-        background: url('../img/sprites.png')  no-repeat -856px -859px;
-        width: 23px; 
-        height:35px; 
+        background: url('../img/sprites.png')  no-repeat -849px -859px;
+        width: 37px; 
+        height:37px; 
         border:1px solid $black3; 
         margin-top:9px;
         }  
        .eye {  
-        background: url('../img/sprites.png')  no-repeat  -694px -710px;
-        width: 23px; 
-        height:35px; 
+        background: url('../img/sprites.png')  no-repeat  -688px -710px;
+        width: 37px; 
+        height:37px; 
         border:1px solid $black3; 
         margin-top:9px;
         }  
        .basket{  
-        background: url('../img/sprites.png')  no-repeat -1223px -1220px;
-        width: 23px; 
-        height:35px;  
+        background: url('../img/sprites.png')  no-repeat -1218px -1220px;
+        width: 37px; 
+        height:37px;  
         color:$yellow;
         border:1px solid $yellow; 
         margin-top:9px;
@@ -1241,19 +1257,19 @@
 
     }  
     .circle_price {  
-     width:80px; 
-     height:60px;   
+     width:105px; 
+     height:80px;   
      background:$gray8; 
      color:$white;
      border-radius:50%;
      border:1px solid transparent;
      text-align:center;  
-     line-height:21px;
-     padding-top:25px;
+     line-height:24px;
+     padding-top:37px;
      position:absolute;  
      position:relative;
      bottom:101px; 
-     left:235px; 
+     left:411px; 
      z-index:80; 
      span {  
       font-size:14px; 
@@ -1261,31 +1277,32 @@
      }  
      p {  
        font-weight:500; 
-       font-size:17px;
+       font-size:19px;
       }
      .line {  
-      width:50px; 
-      height:1px;  
+      width:58px; 
+      height:2px;  
       background:$white; 
       position:absolute; 
-      bottom:27px; 
-      left:15px;
+      bottom:43px; 
+      left:24px;
      }
     }
     .add {
-      width: 57px; 
-      height: 14px; 
+      width: 77px; 
+      height: 21px; 
       background: $black3;
       position: relative;
       color:$white; 
-      font-size:10px;  
+      font-size:12px;  
       letter-spacing:0px; 
-      word-spacing:-1px; 
-      padding:2px; 
-      padding-top:9px; 
+      word-spacing:-1px;
+      padding-top:9px;  
+      padding-left:12px;
       position:absolute; 
-      bottom:209px; 
-      left:36px;
+      bottom:236px; 
+      left:57px; 
+      
       }
       .add:before {
       content: "";
@@ -1299,19 +1316,19 @@
       border-bottom: 5px solid transparent;
       } 
       .logo {  
-        width:162px;  
-        height:103px;   
+        width:250px;  
+        height:107px;   
         background:$white;
         border:1px solid transparent; 
         position:absolute; 
         bottom:123px; 
-        left:200px;    
+        left:338px;    
         box-shadow: 0px 1px 3px 0px rgba(0,0,0,4);
         p { color:$black3;  
           font-size:13px; 
           font-weight:600;  
           margin-top:34px;
-          margin-left:16px;
+          margin-left:58px;
         }
         .star {  
          background:url(../img/sprites.png) no-repeat -1802px -1761px;  
@@ -1319,7 +1336,7 @@
          height:17px;  
          width:125px; 
          margin-top:15px; 
-         margin-left:16px;  
+         margin-left:61px;  
       }
     }   
     .logo::before {
@@ -1327,18 +1344,18 @@
       position: absolute;
       top: 0;
       left: 0;
-      border: 10px solid transparent;
-      border-left: 10px solid  #000;
-      border-top: 10px solid #000;
+      border: 13px solid transparent;
+      border-left: 13px solid  #000;
+      border-top: 13px solid #000;
     } 
     .logo::after {
       content: '';
       position: absolute;
       bottom: 0;
       right: 0;
-      border: 10px solid transparent;
-      border-right: 10px solid #000;
-      border-bottom:10px solid #000;
+      border: 13px solid transparent;
+      border-right: 13px solid #000;
+      border-bottom:13px solid #000;
     } 
     .slider {   
      border:1px solid $gray3; 
@@ -1348,9 +1365,9 @@
       border:1px solid $black3;
       background:$black3;   
       position:relative; 
-      margin:7px 3px;
+      margin:7px 5px;
       height:70px; 
-      width:23px; 
+      width:35px; 
     .left_arrow {  
       background:url(../img/sprites.png) no-repeat -104px -106px ; 
       border:1px solid transparent;
@@ -1358,7 +1375,7 @@
       width:15px; 
       position:absolute; 
       top:28px; 
-      right:3px;
+      right:10px;
     }
     }  
     .slider__right_click {   
@@ -1366,38 +1383,38 @@
       background:$black3;   
       position:relative;
       height:70px; 
-      width:23px;  
-      margin:7px 3px;
+      width:35px;  
+      margin:7px 5px;
       .right_arrow {  
       background:url(../img/sprites.png) no-repeat -142px -145px;
       height:15px; 
       width:15px; 
       position:absolute; 
       top:28px; 
-      left:3px;
+      left:10px;
       border:1px solid transparent;
     }
     } 
     .slider_item   {  
-      width:50px; 
+      width:70px; 
       height:70px; 
       background:$gray6; 
       border:1px solid transparent; 
-      margin:7px 3px;
+      margin:7px 5px;
     }
     }
   } 
  } 
  .price_and_order {  
-  width:365px;  
-  height:600px;   
+  width:555px;  
+  height:641px;   
   margin-top:32px; 
   margin-left:18px; 
   background:$gray;
   border:1px solid $gray; 
   .price {   
     margin-top:73px; 
-    margin-left:10px;   
+    margin-left:46px;   
     padding-left:25px; 
     font-size:14px; 
     font-weight:700; 
@@ -1411,7 +1428,7 @@
     border:1px solid transparent;  
     background:$gray;
     margin-top:25px; 
-    margin-left:25px;
+    margin-left:67px;
     font-size:35px; 
     font-weight:700;   
     letter-spacing:-1px;
@@ -1419,7 +1436,7 @@
   } 
   button {  
   margin-top:35px; 
-  margin-left:40px; 
+  margin-left:69px; 
   height:54px;  
   width:90px; 
   font-weight:600;
@@ -1430,25 +1447,26 @@
   font-size:11px;
   }
  } 
- .latest_blog {   
+ .latest_blog {     
+  
  .latest_blog__logo {  
    font-size:16px; 
    font-weight:600;  
    word-spacing:-1px;
    color:$yellow;  
    margin-top:55px; 
-   margin-left:50px;
+   margin-left:1px;
  } 
  .wrapper{ 
   display:flex;
  .latest_blog__line {  
-  width:693px; 
+  width:1079px; 
   height:3px;  
-  margin-left:57px; 
+  margin-left:1px; 
   margin-top:11px;
   background:$gray3;  
   .progress{  
-   width:30px; 
+   width:35px; 
    height:3px;  
    background:$yellow;
   }
@@ -1475,9 +1493,8 @@
   }  
   .latest_blog__products {    
   display:flex; 
-  padding-left:47px;
  .product {  
-  width:238px; 
+  width:360px; 
   height:291px;   
   border:1px solid transparent;
   position:relative;
@@ -1485,41 +1502,55 @@
   margin:25px 9px;
  
   .content {  
-    width:199px; 
-    height:350px;   
+    width:290px; 
+    height:350px;    
+    border:2px solid transparent;
     display:flex; 
     flex-wrap:wrap;
     position:absolute; 
     top:229px; 
-    left:17px;
+    left:34px;
     background:$white; 
     border:1px solid transparent; 
-    .wrapper { 
-      border:1px solid transparent; 
+    .wrapper_l { 
+      border:1px solid transparent;  
+      display:flex; 
       margin-top:21px; 
-      margin-left:13px; 
-      height:25px; 
+      margin-left:24px; 
+      height:25px;  
+      width:80px; 
      .icon {  
       background:url(../img/sprites.png)  no-repeat -244px -260px; 
       width: 13px;
       height: 14px;   
       margin-right:4px;
      }  
-     .iconn {  
-      background:url(../img/sprites.png)  no-repeat -657px -684px;
-      width: 13px;
-      height: 14px;   
-      margin-right:4px;
-     } 
+     
       .date {   
       font-size:11px;    
       margin-top:2px;
       }  
-      .comments {   
+     
+    }  
+    .wrapper_r { 
+      border:1px solid transparent;  
+      display:flex; 
+      margin-top:21px; 
+      margin-left:73px; 
+      height:25px;   
+      width:80px; 
+      .iconn {  
+        background:url(../img/sprites.png)  no-repeat -657px -684px;
+        width: 13px;
+        height: 14px;   
+        margin-right:4px;
+       }    
+       .comments {   
         font-size:11px;    
         margin-top:2px;
         } 
-    }   
+
+     }   
     p { 
       font-size:13px;   
       color:$yellow; 
@@ -1546,7 +1577,7 @@
     }
     .yellow {   
     width:110px; 
-    height:45px;   
+    height:48px;   
     font-size:12px; 
     font-weight:700;
     background:$yellow; 
@@ -1558,7 +1589,7 @@
     } 
     .black {   
       width:110px; 
-      height:45px;   
+      height:48px;   
       font-size:12px; 
       font-weight:700;
       background:$black3; 
@@ -1577,67 +1608,75 @@
    margin-top:257px; 
    .slider { 
     display:flex; 
-    width:750px; 
+    width:1140px; 
     height:138px; 
     border:1px solid $gray6;  
     border-left:1px solid transparent;  
     border-right:1px solid transparent; 
-    margin-left:57px; 
-    margin-top:29px; 
+      margin-top:29px; 
     .slider_arrow {  
-      width:30px; 
-      height:90px;    
-      margin-top:25px;
+      width:33px; 
+      height:93px;    
+      margin-top:25px; 
+      margin-right:15px;
       background:$black3; 
      .arrow_l {  
       background: url(../img/sprites.png) no-repeat -109px -108px;
       width: 9px;
       height: 13px; 
-      margin-left:5px; 
+      margin-left:10px; 
       margin-top:38px;
      }  
-     .arrow_r {  
-      background: url(../img/sprites.png) no-repeat -142px -145px;
-      width: 9px;
-      height: 13px; 
-      margin-left:5px; 
-      margin-top:38px;
-     } 
-    } 
+     
+    }  
+    .slider_arroww {  
+      width:33px; 
+      height:93px;    
+      margin-top:25px; 
+      margin-left:15px;
+      background:$black3;   
+      .arrow_r {  
+        background: url(../img/sprites.png) no-repeat -142px -145px;
+        width: 9px;
+        height: 13px; 
+        margin-left:10px; 
+        margin-top:38px;
+       } 
+     }
     .item {  
-     width:140px;  
+     width:145px;  
      height:90px;  
      background: url(../img/background1.png) no-repeat center ;
      border:1px solid $gray6; 
-     margin:25px 13px;
+     margin:25px 15px;
     }  
     .item2 {  
-      width:140px;  
+      width:145px;  
       height:90px;  
       background: url(../img/background2.png) no-repeat center ;
       border:1px solid $gray6; 
-      margin:25px 13px;
+      margin:25px 15px;
      } 
      .item3 {  
-      width:140px;  
+      width:145px;  
       height:90px;  
       background: url(../img/background3.png) no-repeat center ;
       border:1px solid $gray6; 
-      margin:25px 13px;
+      margin:25px 15px;
      } 
      .item4 {  
-      width:140px;  
+      width:145px;  
       height:90px;  
       background: url(../img/background4.png) no-repeat center ;
       border:1px solid $gray6; 
-      margin:25px 13px;
+      margin:25px 15px;
      } 
      .item5 {  
-      width:140px;  
+      width:145px;  
       height:90px;  
       background: url(../img/background5.png) no-repeat center ;
       border:1px solid $gray6; 
-      margin:25px 13px;
+      margin:25px 15px;
      }
    } 
    .slider_section__logo {  
@@ -1646,19 +1685,17 @@
     word-spacing:-1px;
     color:$yellow;  
     margin-top:62px; 
-    margin-left:50px;
   }  
   .wrapper{ 
     display:flex; 
     position:relative;
    .latest_blog__line {  
-    width:693px; 
+    width:1082px; 
     height:3px;  
-    margin-left:57px; 
     margin-top:11px;
     background:$gray3;  
     .progress{  
-     width:30px; 
+     width:36px; 
      height:3px;  
      background:$yellow;
     }
@@ -1689,23 +1726,23 @@
     color:$black3; 
     position:absolute; 
     top:40px; 
-    left:420px;
+    left:565px;
     }
     .slider_section__content {   
-     margin-top:70px;
+     margin-top:70px; 
      p{
      font-size:11px; 
      text-align:center; 
      line-height:25px; 
      word-spacing:0px; 
-     font-weight:900; 
+     font-weight:700; 
      color:$black5;
      } 
   } 
    .slider_section__client {   
      display:flex; 
      margin-top:27px; 
-     margin-left:367px; 
+     margin-left:510px;  
     .square { 
      width:38px; 
      height:50px;  
@@ -1733,12 +1770,29 @@
   height:333px; 
   margin-top:60px;
   display:flex; 
-  position:relative;
+  position:relative; 
+  .sectionn {  
+    background:$black2; 
+    width:150px;    
+    margin-top:59px;
+    h1{ 
+      font-size:19px;  
+      color:$white; 
+      }   
+    .content {  
+     margin-top:33px;
+    p{  
+     color:$gray8;  
+     margin-top:18px; 
+     font-size:12px;
+    } 
+   }
+  } 
   .section {  
     background:$black2; 
     width:150px;    
     margin-top:59px;
-    margin-left:45px;   
+    margin-left:125px;   
     h1{ 
       font-size:19px;  
       color:$white; 
@@ -1759,7 +1813,7 @@
    width:240px; 
    position:absolute;
    top:243px; 
-   left:620px;
+   left:823px;
   }
   } 
   .fin {   
@@ -1769,7 +1823,7 @@
   .content {   
     position:relative;
     margin-top:42px; 
-    margin-left:310px; 
+    margin-left:417px; 
     font-size:11px; 
     color:$gray8; 
     letter-spacing:0px; 
@@ -1783,12 +1837,12 @@
     background:$gray8; 
     position:absolute; 
     bottom:9px; 
-    left:125px;
+    left:130px;
   } 
   .services{   
     display:flex; 
     margin-top:40px; 
-    margin-left:125px;
+    margin-left:207px;
   .twitter{  
    background:url(../img/sprites.png) no-repeat -738px -757px; 
    width: 16px;
